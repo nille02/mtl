@@ -1,0 +1,3 @@
+import storage
+
+pkgname = "MeinTest"
