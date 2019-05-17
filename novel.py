@@ -107,6 +107,10 @@ class Chapter:
             parent = element.getparent()
             parent.remove(element)
 
+        for element in html.xpath("//p[contains(@class,'novel_subtitle')]"):
+            element.tag = "h2"
+            element.attrib['style'] = "text-align: center;"
+
         html.get_element_by_id("novel_color").set("id", self.chapterid)
 
         return lxml.html.tostring(html, encoding='unicode')
