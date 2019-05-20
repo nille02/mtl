@@ -5,10 +5,30 @@
 限定的死属性魔術	Limited Death-Attribute Magic
 殺菌	Sterilization
 殺虫	Bug Killer
+停撃の結界	Impact-Negating Barrier
 吸魔の結界	Magic Absorption Barrier
 状態異常耐性	Status Effect Resistance
 死属性耐性	Death Attribute Resistance
 魔術耐性	Magic Resistance
+蹴打	Kicking Strike
+即応	Instant Response
+超即応	Super Instant Response
+魔弾撃	Magic Breaker
+十文字斬り	Cross Cut
+十文字切り	Cross Cut
+剣舞	Sword Dance
+貫通突き	Piercing Thrust
+治癒力強化	Fortify Regeneration
+無毒化	Detoxification
+鞭斧	Axe Whip
+三連鞭斧	Triple Axe Whip
+大風刃	Great Wind Blade
+流し斬り	Flowing Cut
+三段突き	Triple Thrust
+三段斬り	Triple Thrust
+未来予知	Future Sight
+剛閃	Strong Flash
+魔力譲渡	Mana Transfer
 闇視	Dark Vision
 暗視	Night Vision
 吸血	Bloodsucking
@@ -42,6 +62,7 @@
 猛毒	Deadly Poison
 猛毒分泌：尻尾	Deadly Poison Secretion: Tail
 病	Disease
+業病	Incurable Disease
 霊体	Spirit Form
 霊体化	Spirit Form Transformation
 高速飛行	Swift Flight

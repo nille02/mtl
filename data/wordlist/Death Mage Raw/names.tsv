@@ -1,8 +1,5 @@
 ヴァンダルー	Vandalieu
 ヴァン	Van
-アンデッド	Undead
-ダンピール	Dhampir
-ダークエルフ	Dark Elf
 ダークエルフ国	Dark Elf nation
 ダルシア	Darcia
 ヴァレン	Valen
@@ -13,20 +10,14 @@
 サリア	Saria
 リタ	Rita
 ザディリス	Zadiris
-グール	Ghoul
 グール国	Ghoul nation
-コボルド	Kobold
-コボルト	Kobold
 ハイコボルト国	High Kobold nation
-ハイコボルト	High Kobold
 ビルデ	Bilde
 カチア	Kachia
 タレア	Tarea
 ルチリアーノ	Luciliano
 リッケン	Rikken
 ブゴガン	Bugogan
-ノーブルオーク	Noble Orc
-ノーブルオークハーフ	Half-Noble Orc
 ノーブルオーク王国	Noble Orc kingdom
 坊ちゃん	Bocchan
 ヴィガロ	Vigaro
@@ -64,16 +55,7 @@
 骨猿	Bone Monkey
 ハインツ	Heinz
 ゴーレム	Golem
-ゴブリン	Goblin
 ハイゴブリン国	High Goblin nation
-ハイゴブリン	High Goblin
-ブラックゴブリン	Black Goblin
-アヌビス	Anubise
-オーカス	Orcuse
-巨人種	Titan
-獣人種	Beast-people
-ドワーフ	Dwarves
-リザードマン	Lizardmen
 アーマーン	Arman
 ストーンゴーレム	Stone Golem
 地球	Earth
@@ -99,31 +81,16 @@
 マルドゥーク	Marduke
 ガンパプリオ	Ganpaplio
 グドゥラニス	Guduranis
-竜人	Drakonid
 竜人国	Drakonid nation
 ティアマト	Tiamat
 トリスタン	Tristan
-人魚	Merfolk
 人魚国	Merfolk nation
-エルフ	Elf
-ハーフエルフ	half-Elve
-経験値	Experience Point
-ラミア	Lamia
 ラミア国	Lamia nation
-スキュラ	Scylla
-アラクネ	Arachne
-オーク	Orc
-ケンタウロス	Centaur
 ケンタウロス国	Centaur nation
-ハーピィー	Harpy
-ハーピィ	Harpy
 ハーピィー国	Harpy nation
 ハーピィ国	Harpy nation
-ハーピー	 Harpy
-魔人	Majin
 魔人族	Majin Race
 魔人国	Majin nation
-鬼人	Kijin
 鬼人国	Kijin nation
 ザッカート	 Zakkart
 ザッカートの試練	 Trial of Zakkart
@@ -146,8 +113,6 @@
 第八の導き	The 8th Guidance
 ナイト	Knight
 オルバウム選王国	Orbaume Kingdom
-ジャイアントフロッグ	Giant Frog
-ポイズンフロッグ	Poison Frog
 ボークス	Borkus
 ジーナ	Jeena
 ザンディア	Zandia
@@ -161,22 +126,15 @@
 イリス・ベアハルト	Iris Bearheart
 ベアハルト	Bearheart
 イリス	Iris
-淫魔人	Obscene-Majin
-淫魔人サキュバス	Obscene-Majin Succubus
-サキュバス	Succubus
 オロチ	Orochi
 ゴドウィン	Godwin
-闘魔人アブソリュートディアブロキング	Battle-Majin – Absolute Diablo King
 ヴェルド	Veld
 オニワカ	Oniwaka
-鬼人族	Kijin
 ヴィダの寝所	Vida’s Resting Ground
 トーマス・パルパペック	Thomas Palpapek
 パルパペック	Palpapek
 トーマス	Thomas
 大英雄の運命	Great Hero’s Destiny
-吸血鬼	Vampire
-貴種吸血鬼	Noble-born Vampire
 レギオン	Legion
 ロドコルテ	Rodcorte
 アイゼン	Eisen
@@ -300,8 +258,8 @@
 レイモンド	Raymond
 パリス	Paris
 リック	Rick
-公爵	Duke
-子爵	Viscount
+公爵	 Duke
+子爵	 Viscount
 グーバモン	Gubamon
 ゾルコドリオ	Zorcodrio
 バロール	Balor
@@ -323,7 +281,6 @@
 一寸法師	Issun-bōshi
 スーツ	Suit
 バンダー	Banda
-パパ	Papa
 ダンジョン	Dungeon
 トレーニング	Training
 ガブリエル	Gabriel
@@ -333,7 +290,6 @@
 デリック	Derrick
 パワード	Powered
 めー君	Me-kun
-ママ	Mama
 ゾッド	Zod
 アイドル	Idol
 ザントマン	Sandman
