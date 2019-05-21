@@ -1,9 +1,11 @@
 グール	Ghoul
+セメタリービー	Cemetery Bee
 グールバーサーカー	Ghoul Berserker
 スペクターバード	Specter Bird
 ブラッドキャリッジ	Blood Carriage
 リビングボーン	Living Bone
 アンデッド	Undead
+巨人種アンデッド	Undead Titan
 ダンピール	Dhampir
 ダークエルフ	Dark Elf
 コボルド	Kobold
@@ -16,6 +18,7 @@
 ゴブリン	Goblin
 ハイゴブリン	High Goblin
 ブラックゴブリン	Black Goblin
+ブラックゴブリンスカウト	Black Goblin Scout
 アヌビス	Anubise
 オーカス	Orcuse
 巨人種	Titan
@@ -44,7 +47,9 @@
 サキュバス	Succubus
 闘魔人アブソリュートディアブロキング	Battle-Majin – Absolute Diablo King
 吸血鬼	Vampire
+従属種吸血鬼	 Subordinate Vampire
 貴種吸血鬼	Noble-born Vampire
+ヴァンパイアバロン	Vampire Baron
 骨狼	Bone Wolf
 骨熊	Bone Bear
 骨人	Bone Man

@@ -1,5 +1,7 @@
 怪力	Superhuman Strength
 超力	Superhuman Strength
+対劣化	Anti-Degradation
+【発酵】	【Fermentation】
 高速治癒	Rapid Healing
 死属性魔術	Death-Attribute Magic
 限定的死属性魔術	Limited Death-Attribute Magic
@@ -24,6 +26,7 @@
 治癒力強化	Fortify Regeneration
 無毒化	Detoxification
 鞭斧	Axe Whip
+円鞭斧	Circular Axe Whip
 三連鞭斧	Triple Axe Whip
 大風刃	Great Wind Blade
 流し斬り	Flowing Cut
@@ -45,6 +48,7 @@
 ゴーレム練成	 Golem Creation
 ゴーレム創成	Golem Creation
 奪熱	Heat Leech
+詠唱短縮	Chant Reduction
 詠唱破棄	Chant Revocation
 降霊	Spirit Communication
 忍び足	Silent Steps
@@ -58,7 +62,8 @@
 殺傷力強化	Bloodshed Enhancement
 エネルギー奪取	Energy Absorption
 槍斧術	Halberd Technique
-生命感知	Sense Life
+生命感知	Detect Life
+生命力探知	Sense Life
 鬼火	 Light
 魔力弾	 Mana Bullet
 腐敗	Decomposition
@@ -87,7 +92,6 @@
 火属性耐性	Fire Element Resistance
 石盾	Stone Shield
 石壁	Stone Wall
-生命力探知	Sense Life
 無痛	Painlessness
 痛覚耐性	Pain Resistance
 麻痺毒分泌(爪)	Paralyzing Venom Secretion (Claws)
@@ -506,6 +510,7 @@
 念動	Telekinesis
 死亡遅延	Death Delay
 加速	Acceleration
+超超	Super-Acceleration
 異形精神	Grotesque Mind
 百輝轟拳	Hundred Roaring Shining Fists
 全能力覚醒	Full Ability Awakening
@@ -517,3 +522,27 @@
 脳天打ち	Skull Bash
 非金属鎧装備時防御力強化：中	Strengthened Defensive Power while equipped with non-metal armor: (Medium)
 聖剣神術	Holy Sword God Technique
+石斬り	Rock Cutter
+クイックスラッシュ	Quick Slash
+突貫	Pierce
+鉄壁	Iron Wall
+鉄身	Iron Body
+裂鉄	Iron Tear
+無治	Healing Negation
+魂砕き	Soul Break
+獣化	Beast Transformation
+【分身】	【Clone】
+【流水】	【Flowing Water】
+斬月	Slicing Moon
+インビジブルスラッシュ	Invisible Slash
+鉄体	Iron Form
+魔力超大砲	Super Mana Cannon
+断鉄	Iron Slash
+可視化	Visualization
+死弾	Death Bullet
+風の刃付与	Blade of Wind Enchantment
+風の祝福	Blessing of Wind
+矢避け	Arrow Evasion
+【竜殺し】	【Dragon Slayer】
+【神殺し】	【God Slayer】
+神殺し：	God Slayer: 

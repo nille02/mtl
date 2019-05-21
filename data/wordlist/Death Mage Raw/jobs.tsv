@@ -6,6 +6,7 @@
 武具職人	Arms Smith
 奴隷	Slave
 弓術士	Archer
+霊媒師	Spiritualist
 精霊魔術師	Spiritual Mage
 見習い娼婦	Apprentice Prostitute
 病魔	Disease Demon
@@ -48,16 +49,15 @@
 生命属性魔術師	Life-Attribute Mage
 時属性魔術師	Time-Attribute Mage
 火属性魔術師	Fire-Attribute Mage
+水属性魔術師	Water-Attribute Mage
 魔眼使い	Demon Eye User
 隷属戦姫	Vassal War Princess
 土属性魔術師	Earth-Attribute Mage
 アンデッド使い	Undead User
 デーモンテイマー	Demon Tamer
-騎士見習い	Apprentice Knight
 呪霊剣士	Cursed Spirit Swordsman
 テイマー	Tamer
 アンデッドテイマー	Undead Tamer
-魔人騎士	Majin Knight
 剣士	Swordsman
 轟烈拳闘士	Furious Thundering Fist Fighter
 格闘士	Unarmed Fighter
@@ -93,8 +93,14 @@
 ゾンビメイカー	Zombie Maker
 ゴーレム創成師	Golem Creator
 ゾンビヒーロー	Zombie Hero
+騎士	Knight
+騎士見習い	Apprentice Knight
 従騎士	Lesser Knight
+魔人騎士	Majin Knight
+聖騎士	Holy Knight
 狩人見習い	Apprentice Hunter
+銃士	Musketeer
+ガンマン	Gunman
 糸使い	Thread-user
 ストリングマスター	String Master
 メイド	Maid
