@@ -97,6 +97,8 @@
 狩人見習い	Apprentice Hunter
 糸使い	Thread-user
 ストリングマスター	String Master
+メイド	Maid
+見習いメイド	Apprentice Maid
 巫女	Shrine Maiden
 上級巫女	Advanced Shrine Maiden
 巫女長	Shrine Maiden Leader
@@ -117,7 +119,7 @@
 金剛筋術士	Indestructible Muscle User
 轟雷筋術士	Roaring Thunder Muscle User
 バーテンダー	Bartender
-大工	Carpenter
+大工	Carpentry
 神鉄筋術士	God-Iron Muscle User
 守護筋士	Guardian Muscle User
 暗闘筋戦士	Dark Muscle User
@@ -171,3 +173,8 @@
 名パン職人	Renowned Baker
 マスターパン職人	Master Baker
 見習い兵士	Apprentice Soldier
+鍛冶職人	Blacksmithing
+名工	Renowned Craftsman
+匠	Artisan
+匠：武具職人	Artisan: Arms Smith
+武器職人：匠	Arms Smith: Artisan

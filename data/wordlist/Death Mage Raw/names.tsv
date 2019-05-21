@@ -1,6 +1,5 @@
 ヴァンダルー	Vandalieu
 ヴァン	Van
-ダークエルフ国	Dark Elf nation
 ダルシア	Darcia
 ヴァレン	Valen
 オルビー	Orbie
@@ -10,15 +9,12 @@
 サリア	Saria
 リタ	Rita
 ザディリス	Zadiris
-グール国	Ghoul nation
-ハイコボルト国	High Kobold nation
 ビルデ	Bilde
 カチア	Kachia
 タレア	Tarea
 ルチリアーノ	Luciliano
 リッケン	Rikken
 ブゴガン	Bugogan
-ノーブルオーク王国	Noble Orc kingdom
 坊ちゃん	Bocchan
 ヴィガロ	Vigaro
 ゴブゴブ	Gobu-gobu
@@ -32,12 +28,10 @@
 鋼の翼	Steel Wings
 ミランダ	Miranda
 白い星	White Stars
-ラムダ	Lambda
 ズルワーン	Zuruwarn
 リクレント	Ricklent
 ディアナ	Deeana
 タロス	Talos
-タロスヘイム	Talosheim
 ゼルクス	Xerx
 ガレス	Garess
 リシャーレ	Rishare
@@ -55,7 +49,6 @@
 骨猿	Bone Monkey
 ハインツ	Heinz
 ゴーレム	Golem
-ハイゴブリン国	High Goblin nation
 アーマーン	Arman
 ストーンゴーレム	Stone Golem
 地球	Earth
@@ -81,23 +74,13 @@
 マルドゥーク	Marduke
 ガンパプリオ	Ganpaplio
 グドゥラニス	Guduranis
-竜人国	Drakonid nation
+
 ティアマト	Tiamat
 トリスタン	Tristan
-人魚国	Merfolk nation
-ラミア国	Lamia nation
-ケンタウロス国	Centaur nation
-ハーピィー国	Harpy nation
-ハーピィ国	Harpy nation
 魔人族	Majin Race
-魔人国	Majin nation
-鬼人国	Kijin nation
 ザッカート	 Zakkart
 ザッカートの試練	 Trial of Zakkart
 魔境	 Devil Nests
-バーンガイア大陸	 Bahn Gaia continent
-アミッド帝国	 Amid Empire
-ミルグ盾国	 Mirg Shield Nation
 冒険者ギルド	 Adventurer’s Guild
 冒険者	 adventurer
 真祖	 True Ancestor
@@ -112,7 +95,6 @@
 六道	 Rokudou
 第八の導き	The 8th Guidance
 ナイト	Knight
-オルバウム選王国	Orbaume Kingdom
 ボークス	Borkus
 ジーナ	Jeena
 ザンディア	Zandia
@@ -130,7 +112,6 @@
 ゴドウィン	Godwin
 ヴェルド	Veld
 オニワカ	Oniwaka
-ヴィダの寝所	Vida’s Resting Ground
 トーマス・パルパペック	Thomas Palpapek
 パルパペック	Palpapek
 トーマス	Thomas
@@ -156,13 +137,7 @@
 バーバヤガー	Baba Yaga
 探索者ギルド	Explorers’ Guild
 ヴィダ神殿	Church of Vida
-公衆浴場	Public bathhouse
-カプリコーン農場	Capricorn farm
-カプリコーン乳加工場	Capricorn milking factory
 精神侵食ストーンサークル	Mental Encroachment stone circle
-ヒュージカピバラ牧場	Huge Capybara farm
-魔鴨の養殖場	Duck farm
-サウロン解放戦線アジト	Sauron Liberation Front base
 サウロン解放戦線	Sauron Liberation Front
 サウロン	Sauron
 神治時代	age of the gods
@@ -296,7 +271,6 @@
 陽堂	Youdo
 ライフル	Rifle
 アフリカ	Africa
-スキル	Skill
 ハンマー	Hammer
 ブラックマリア	Black Maria
 ブラック	Black
@@ -363,7 +337,6 @@
 キンバリー	Kimberley
 ブラガ	Braga
 デーヌ	Daene
-ニアーキ	Niarki
 海藤カナタ	Kaidou Kanata
 カナタ	Kanata
 海藤	Kaidou
@@ -426,7 +399,6 @@
 アーティファクト	Artifact
 フリル	Frills
 レース	Laces
-メイド	Maid
 パッチワーク	Patchwork
 ゾンビ	Zombie
 ヒュドラ	Hydra
@@ -444,7 +416,6 @@
 ショウコ・アカギ	Shouko Akagi
 アカギ	Akagi
 ショウコ	Shouko
-試練の探索者	Trial Seeker
 キュール	Kühl
 ファング	Fang
 ダグ・アトラス	Doug Atlas
@@ -460,3 +431,4 @@
 ジェニファー	Jennifer
 メルディン	Meldin
 セレン	Selen
+アイスエイジ	Ice Age
