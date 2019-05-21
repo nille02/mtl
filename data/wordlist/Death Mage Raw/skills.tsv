@@ -70,6 +70,8 @@
 猛毒	Deadly Poison
 猛毒分泌：尻尾	Deadly Poison Secretion: Tail
 病	Disease
+死病	Deadly Disease
+病気耐性	Disease Resistance
 業病	Incurable Disease
 霊体	Spirit Form
 霊体化	Spirit Form Transformation
@@ -118,6 +120,8 @@
 若化	Youth Transformation
 回転斬り	Spinning Cut
 鑑定	Appraisal
+魔物鑑定	Monster Appraisal
+討伐証明鑑定	Extermination Proof Appraisal
 色香	Allure
 目利き	Estimation
 防具職人	Armor Smithing
@@ -132,6 +136,7 @@
 両断	Bisection
 二段突き	Double Thrust
 レムルース	Lemure
+レムルース作成	Lemure Creation
 シールドバッシュ	Shield Bash
 退廃	Degenerate
 上位スキル	Superior Skill
@@ -514,6 +519,7 @@
 異形精神	Grotesque Mind
 百輝轟拳	Hundred Roaring Shining Fists
 全能力覚醒	Full Ability Awakening
+挑発	Provocation
 極挑発	Super Provocation
 輝鋼壁	Radiant Steel Wall
 輝鋼体	Radiant Steel Form
@@ -546,3 +552,19 @@
 【竜殺し】	【Dragon Slayer】
 【神殺し】	【God Slayer】
 神殺し：	God Slayer: 
+感覚強化	Enhanced Senses
+神聖強化	Holy Enhancement
+神託受領	Divine Message Receipt
+気配察知	Intuition
+アンデッド化	Undead Transformation
+ゴーレム化	Golem Transformation
+鮮度回復	Freshness Restoration
+気配消し	Erase Presence
+生体熱源感知	Detect Organism Heat
+光・生命属性無効	Light-/Life-Attribute Nullification
+無限双爪刃	Endless Twin Claw-Blades
+氷獣群推参	Ice Beast Pack Assault
+破邪蒼煌輝閃	Evil-Crushing Blue Radiant Flash
+装植術	Plant Binding Technique
+無手時攻撃力強化	Strengthened Attack Power while Unarmed
+雷光	Lightning
