@@ -93,8 +93,8 @@ class Chapter:
     def get_filtered_data(self) -> str:
 
         data = self.data
-        self.word_list = self.__sort(self.word_list, reverse=True)
         if self.word_list is not None:
+            self.word_list = self.__sort(self.word_list, reverse=True)
             for word in self.word_list:
                 data = data.replace(word[0], word[1])
 
