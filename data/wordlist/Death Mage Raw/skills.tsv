@@ -151,7 +151,18 @@
 魔力自動回復	Automatic Mana Recovery
 杖装備時魔術力強化：大	Increased Magical Power while equipped with a staff: Large
 能力値強化：変身	Enhanced Attribute Values: Transformation
+自己強化：	Self-Enhancement:
 自己強化：導き	Self-Enhancement: Guidance
+自己強化：隷属	Self-enhancement: Subordination
+自己強化：魔道	Self-Enhancement: Demon Path
+自己強化：創造主	Self-Enhancement: Creator
+自己強化：従属	Self-Enhancement: Subordinate
+自己強化：ヴァンダルー	Self-Enhancement: Vandalieu
+自己強化：信仰	Self-Enhancement: Faith
+自己強化：冒険	Self-Enhancement: Adventuring
+自己強化：魔王の血	Self-Enhancement: Demon King’s Blood
+自己強化：殺業	Self-Enhancement: Murder
+自己超強化：隷属	Super Self-enhancement: Subordination
 同時発動	Multi-Cast
 並列思考	Parallel Thought Processing
 群体思考	Group Thought Processing
@@ -178,8 +189,6 @@
 聖剣限界超越	Transcend Limits – Holy Sword
 魔剣限界超越	Transcend Limits – Magic Sword
 魔槍限界超越	Transcend Limits – Magic Spear
-自己強化：隷属	Self-enhancement: Subordination
-自己超強化：隷属	Super Self-enhancement: Subordination
 気配感知	Detect Presence
 日光耐性	Sunlight Resistance
 採掘	Mining
@@ -208,7 +217,6 @@
 虚王魔術	Hollow King Magic
 能力値強化：忠誠	Strengthened Attribute Values: Loyalty
 能力値強化：騎乗	Strengthened Attribute Values: Mounted
-自己強化：創造主	Self-Enhancement: Creator
 虚骨剣術	Hollow Bone Swordsmanship
 恐怖のオーラ	Aura of Fear
 骨刃	Bone Blades
@@ -263,7 +271,6 @@
 迷宮建築	Labyrinth Creation
 剣装備時攻撃力強化：大	Strengthened Attribute Values when equipped with a Sword (Large)
 下位種族支配	Inferior Race Domination
-自己強化：魔道	Self-Enhancement: Demon Path
 魔道牙剣術	Demon Path Fang Sword Technique
 分霊降臨	Spirit Clone Descent
 魔鎧限界突破	Surpass Limits: Magic Armor
@@ -295,6 +302,7 @@
 魔盾限界突破	Surpass Limits: Magic Shield
 筋力強化	Enhanced Muscular Strength
 金属鎧装備時防御力強化：小	Strengthened Defensive Power while equipped with metal armor: Small
+金属鎧装備時防御力強化：	Strengthened Defensive Power while equipped with metal armor:
 漁業	Fishing
 地属性魔術	Earth-Attribute Magic
 身体強化：爪牙	Enhanced Body Part (Claws, Fangs)
@@ -329,7 +337,6 @@
 精力増強	Enhanced Vigor
 炎熱操作	Heat Manipulation
 炎無効	Flame Nullification
-自己強化：従属	Self-Enhancement: Subordinate
 射出	Projectile Fire
 憑依	Possession
 身体強化：尻尾	Enhanced Body Part (Tail)
@@ -373,7 +380,6 @@
 吸収回復(骨)	Absorption Healing (Bone)
 全属性適性	All-Attributes Affinity
 生命力増大	Vitality Enlargement
-自己強化：ヴァンダルー	Self-Enhancement: Vandalieu
 能力値強化：創造主	Strengthened Attribute Values: Creator
 能力値強化：君臨	Strengthened Attribute Values: Ruling
 弓装備時攻撃力増強：中	Strengthened Attack Power while equipped with a bow: Medium
@@ -387,7 +393,6 @@
 混沌	Chaos
 無手時攻撃力増大：極大	Increased Attack Power while Unarmed: Very Large
 防具未装備時防御力増大：極大	Increased Defense Power while Unarmored: Very Large
-自己強化：信仰	Self-Enhancement: Faith
 能力値強化：最前線	Strengthened Attribute Values: Frontlines
 リベンジ：アルダ勢力との戦い	Revenge: Battle against Alda’s Forces
 極超筋術	Extreme Muscle Technique
@@ -406,7 +411,6 @@
 転移門	Teleportation Gate
 精力超絶倫	Extreme Endless Sexual Stamina
 能力値増強：冒険	Augmented Attribute Values: Adventuring
-自己強化：冒険	Self-Enhancement: Adventuring
 拳神術	God Fist Technique
 成長促進：全能力値	Accelerated Growth: Attribute Values
 武真	True Warrior
@@ -423,7 +427,6 @@
 魔王融合	Demon King Fusion
 魔王侵食度	Demon King Encroachment
 ノーライフキラー	Non-living Killer
-自己強化：魔王の血	Self-Enhancement: Demon King’s Blood
 螺旋射ち	Screw Projectile
 死砲	Death Cannon
 虚砲	Hollow Cannon
@@ -455,7 +458,6 @@
 冥轟雷槍	Dark Thunderbolt Spear
 紅円氷斬	Crimson Ice Execution Circle
 大骸炎獄滅弾	Great Bone Flame Jailing Destruction Bullet
-自己強化：殺業	Self-Enhancement: Murder
 身体強化：霊体	Strengthened Physical Ability: Spirit Form
 槍斧装備時攻撃力強化：小	Strengthened Attack Power while equipped with a spear: Small
 グングニル	Gungnir
