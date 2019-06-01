@@ -75,6 +75,7 @@
 業病	Incurable Disease
 霊体	Spirit Form
 霊体化	Spirit Form Transformation
+魂魄体	Soul Form
 高速飛行	Swift Flight
 命輝剣	Life Light Sword
 錬神術	Transmutation Technique
@@ -141,10 +142,10 @@
 退廃	Degenerate
 上位スキル	Superior Skill
 剣王術	Sword King Technique
-群体思考	Group Thought Processing
 遠隔操作	Long-distance Control
 魔王の欠片	Demon King Fragment
 砲術	Artillery Technique
+魔王砲術	Demon King Artillery Technique
 地球の冥神の加護	Earth’s Dark Gods’ Divine Protection
 魔力増大	Mana Enlargement
 魔力自動回復	Automatic Mana Recovery
@@ -152,7 +153,10 @@
 能力値強化：変身	Enhanced Attribute Values: Transformation
 自己強化：導き	Self-Enhancement: Guidance
 同時発動	Multi-Cast
+並列思考	Parallel Thought Processing
+群体思考	Group Thought Processing
 高速思考	High-speed Thought Processing
+超速思考	Super High-speed Thought Processing
 杖術	Staff Technique
 ゾゾガンテの加護	Zozogante’s Divine Protection
 ガレスの加護	Garess’s Divine Protection
@@ -166,7 +170,6 @@
 解体	Dismantling
 魔斧限界突破	Surpass Limits – Magic Axe
 実体化	Materialization
-並列思考	Parallel Thought Processing
 剣装備時攻撃力強化：極大	Strengthened Attack Power when equipped with a Sword: Very Large
 非金属鎧装備時防御力強化：極大	Strengthened Defense Power when equipped with Non-metal Armor: Very Large
 直感	Intuition
