@@ -145,7 +145,29 @@
 魔王の欠片	Demon King Fragment
 砲術	Artillery Technique
 魔王砲術	Demon King Artillery Technique
+ヴィダの加護	Vida’s Divine Protection
+ザナルパドナの加護	Zanalpadna’s Divine Protection
+ヴァンダルーの加護	Vandalieu’s Divine Protection
+ディアナの加護	Deeana’s Divine Protection
+ボティンの加護	Botin’s Divine Protection
+ペリアの加護	Peria’s Divine Protection
+ぺリアの加護	Peria’s Divine Protection	The first letter is different!
 地球の冥神の加護	Earth’s Dark Gods’ Divine Protection
+ゾゾガンテの加護	Zozogante’s Divine Protection
+ガレスの加護	Garess’s Divine Protection
+ゼルクスの加護	Xerx’s Divine Protection
+アルダの加護	Alda’s Divine Protection
+メレベベイルの加護	Merrebeveil’s Divine Protection
+メレベベイルの加護：二重	Merrebeveil’s Divine Protection: Two-fold
+ザンタークの加護	Zantark’s Divine Protection
+ファーマウンの加護	Farmaun’s Divine Protection
+ティアマトの加護	Tiamat’s Divine Protection
+オリジンの神の加護	God of Origin’s Divine Protection
+ズルワーンの加護	Zuruwarn’s Divine Protection
+リクレントの加護	Ricklent’s Divine Protection
+ロドコルテの加護(喪失！)	Rodcorte’s Divine Protection (Lost!)
+ロドコルテの加護	Rodcorte’s Divine Protection
+タロスの加護	Talos’s Divine Protection
 魔力増大	Mana Enlargement
 魔力自動回復	Automatic Mana Recovery
 杖装備時魔術力強化：大	Increased Magical Power while equipped with a staff: Large
@@ -168,8 +190,6 @@
 高速思考	High-speed Thought Processing
 超速思考	Super High-speed Thought Processing
 杖術	Staff Technique
-ゾゾガンテの加護	Zozogante’s Divine Protection
-ガレスの加護	Garess’s Divine Protection
 獅死斧術	Death Lion Axe Technique
 剛力	Monstrous Strength
 斧装備時能力値強化:極大	Strengthened Attribute Values when equipped with an axe: Very Large
@@ -219,7 +239,6 @@
 虚骨剣術	Hollow Bone Swordsmanship
 恐怖のオーラ	Aura of Fear
 骨刃	Bone Blades
-ゼルクスの加護	Xerx’s Divine Protection
 快適維持	Comfort Maintenance
 空間拡張	Space Expansion
 空中走行	Air-running
@@ -252,7 +271,6 @@
 御使い降臨	Familiar Spirit Descent
 酒造り	Alcohol Brewing
 邪悪封殺	Evil Suppression
-アルダの加護	Alda’s Divine Protection
 アンデッドキラー	Undead Killer
 英霊降臨	Heroic Spirit Descent
 聖光鎧術	Holy Light Armor Technique
@@ -350,8 +368,6 @@
 土属性耐性	Earth-Attribute Resistance
 水土属性耐性	Water and Earth-Attribute Resistance
 漁	Fishing
-メレベベイルの加護	Merrebeveil’s Divine Protection
-メレベベイルの加護：二重	Merrebeveil’s Divine Protection: Two-fold
 破壊の魔眼	Demon Eye of Destruction
 防御力無視	Ignore Defense
 リモコン	Remote Control
@@ -396,7 +412,6 @@
 極超筋術	Extreme Muscle Technique
 土木	Engineering
 超筋肉	Super Muscle
-ヴィダの加護	Vida’s Divine Protection
 筋術	Muscle Technique
 超感覚	Super Sense
 シルフィード	Sylphid
@@ -413,9 +428,6 @@
 成長促進：全能力値	Accelerated Growth: Attribute Values
 武真	True Warrior
 不老	Unaging
-ザンタークの加護	Zantark’s Divine Protection
-ファーマウンの加護	Farmaun’s Divine Protection
-ティアマトの加護	Tiamat’s Divine Protection
 幽体離脱	Out-of-body Experience
 消毒	Disinfect
 城塞形態	Fortress Form
@@ -449,9 +461,6 @@
 侵食融合	Encroachment Fusion
 再生力強化：食肉	Strengthened Regeneration: Consumable Meat
 暗闘術	Assassin Combat Technique
-オリジンの神の加護	God of Origin’s Divine Protection
-ズルワーンの加護	Zuruwarn’s Divine Protection
-リクレントの加護	Ricklent’s Divine Protection
 冥轟雷槍	Dark Thunderbolt Spear
 紅円氷斬	Crimson Ice Execution Circle
 大骸炎獄滅弾	Great Bone Flame Jailing Destruction Bullet
@@ -465,8 +474,6 @@
 ユニークスキル隠匿	Unique Skill Concealment
 ターゲットレーダー(喪失！)	Target Radar (Lost!)
 ターゲットレーダー	Target Radar
-ロドコルテの加護(喪失！)	Rodcorte’s Divine Protection (Lost!)
-ロドコルテの加護	Rodcorte’s Divine Protection
 輪廻神の幸運(喪失！)	God of Reincarnation’s fortune (Lost!)
 輪廻神の幸運	God of Reincarnation’s fortune
 イフリータ	Ifrit
@@ -498,12 +505,6 @@
 轟雷	Roaring Lightning
 雷光か	Lightning
 竜喰い	Dragon Devourer
-ザナルパドナの加護	Zanalpadna’s Divine Blessing
-ヴァンダルーの加護	Vandalieu’s Divine Protection
-ディアナの加護	Deeana’s Divine Protection
-ボティンの加護	Botin’s Divine Blessing
-ペリアの加護	Peria’s Divine Blessing
-ぺリアの加護	Peria’s Divine Blessing	The first letter is different!
 果実高速精製	High-speed Fruit Production
 樹液高速精製	High-speed Sap Production
 枝高速精製	High-speed Branch Production
