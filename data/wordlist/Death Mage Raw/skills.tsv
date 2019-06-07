@@ -97,7 +97,6 @@
 石壁	Stone Wall
 無痛	Painlessness
 痛覚耐性	Pain Resistance
-麻痺毒分泌(爪)	Paralyzing Venom Secretion (Claws)
 魔力回復速度上昇	Increased Mana Recovery Rate
 光属性魔術	Light-Attribute Magic
 風属性魔術	Wind-Attribute Magic
@@ -113,7 +112,7 @@
 格闘術	Unarmed Fighting Technique
 指揮	Commanding
 群蜂指揮	Bee Swarm Commanding
-連携	Coordination
+【連携】	【Coordination】	"Need the 【 and 】 or mistakes happen"
 群蜂連携	Bee Swarm Coordination
 投擲術	Throwing
 熟成	Maturation
@@ -366,7 +365,6 @@
 叫喚	Scream
 装蟲術	Insect Binding Technique
 飢餓耐性	Hunger Resistance
-毒分泌(神経毒)：顎角	Venom Secretion (Neurotoxin): Jaws
 筋力増強	Augmented Muscular Strength
 頑健	Robust Health
 全能力値強化：大	Strengthened All Attribute Values: Large
@@ -432,7 +430,6 @@
 虚砲	Hollow Cannon
 魔砲発動時攻撃力強化	Strengthened Attack Power while activating a Magic Cannon
 冥王魔術	Dark King Magic
-毒分泌(爪牙舌)	Venom Secretion (Claws, Fangs, Tongue)
 身体伸縮(舌)	Body Expansion (Tongue)
 無手時攻撃力強化：大	Strengthened Attack Power while Unarmed: Large
 手術	Surgery
@@ -490,6 +487,10 @@
 捕食回復	Predator’s Restoration
 身体形状操作	Body Form Manipulation
 毒分泌	Venom Secretion
+毒分泌(神経毒)：顎角	Venom Secretion (Neurotoxin): Jaws
+毒分泌(爪牙舌)	Venom Secretion (Claws, Fangs, Tongue)
+猛毒分泌(爪牙舌)	Deadly Venom Secretion (Claws, Fangs, Tongue)
+麻痺毒分泌(爪)	Paralyzing Venom Secretion (Claws)
 猛毒分泌：針	Deadly Poison Secretion: Stinger
 巨大化	Grow
 寄生	Infest
@@ -502,7 +503,7 @@
 ディアナの加護	Deeana’s Divine Protection
 ボティンの加護	Botin’s Divine Blessing
 ペリアの加護	Peria’s Divine Blessing
-ぺリアの加護	Peria’s Divine Blessing
+ぺリアの加護	Peria’s Divine Blessing	The first letter is different!
 果実高速精製	High-speed Fruit Production
 樹液高速精製	High-speed Sap Production
 枝高速精製	High-speed Branch Production
@@ -576,3 +577,6 @@
 装植術	Plant Binding Technique
 無手時攻撃力強化	Strengthened Attack Power while Unarmed
 雷光	Lightning
+エコー	Echo
+物体創造	Object Creation
+死角	Blind Spot

@@ -68,7 +68,7 @@
 ベルウッド	Bellwood
 ザンタークの戦鎚	Warhammer of Zantark
 ペリア	Peria
-ぺリア	Peria
+ぺリア	Peria	The First Letter is different!
 シザリオン	Shizarion
 ボティン	Botin
 ゼーノ	Zerno
@@ -255,6 +255,8 @@
 ユキジョロウ	Yuki Joro
 シャーマン	Shaman
 守屋	Moriya
+守屋幸助	Moriya Kosuke
+幸助	Kosuke
 ジョゼフ	Joseph
 ユミール	Ymir
 一寸法師	Issun-bōshi
@@ -263,10 +265,17 @@
 ダンジョン	Dungeon
 トレーニング	Training
 ガブリエル	Gabriel
+ウルリカ・スカッチオ	Ulrica Scaccio
 ウルリカ	Ulrica
+スカッチオ	Scaccio
 オリハルコン	Orichalcum
 タイタン	Titan
+デリック・サンダー	Derrick Thunder
 デリック	Derrick
+サンダー	Thunder
+キャサリン・ミラー	Catherine Miller
+キャサリンー	Catherine
+ミラー	Miller
 パワード	Powered
 めー君	Me-kun
 ゾッド	Zod
@@ -377,6 +386,7 @@
 ボーンキマイラ	Bone Chimera
 ビルカイン	Birkyne
 成瀬	Naruse
+獅方院真理	Shihouin Mari
 獅方院	Shihouin
 真理	Mari
 暴虐の嵐	Storm of Tyranny
@@ -427,7 +437,9 @@
 ファング	Fang
 ダグ・アトラス	Doug Atlas
 アトラス	Atlas
-ダグ	Doug Atlas
+セルゲイ・ダグラス	Sergey Douglas
+ダグラス	Douglas
+セルゲイ	Sergey
 ランドルフ	Randolph
 エンプーサ	Empusa
 ダイアナ	Diana
@@ -453,3 +465,5 @@
 マオ	Mao
 ソルダ	Soldier
 アーク	Ark
+ダンドリップ	Dundrip
+メオリリス	Meorilis	"This Names Changes Probably"
