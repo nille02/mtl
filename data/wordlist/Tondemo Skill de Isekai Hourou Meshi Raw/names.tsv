@@ -1,13 +1,13 @@
 ツヨシ・ムコウダ	Tsuyoshi Mukouda
 ツヨシ	Tsuyoshi
 ムコーダ	Mukouda
-巻き込まれた異世界人	A person from a different world who got caught
+巻き込まれた異世界人	Victim from Another World
 料理人	Cook
 冒険者	Adventurer
 冒険者ギルドギルドマスター	Adventurer Guild Master
 鑑定	Appraisal
 アイテムボックス	Item Box
-ネットスーパー	Net Super
+ネットスーパー	Online Supermarket
 カイト・サイトウ	Kaito Saitou
 カイト	Kaito
 サイトウ	Saitou
@@ -17,8 +17,8 @@
 リタ	Rita
 斥候	Scout
 短剣術	Short Sword Techniques
-聞き耳	Eavesdrop Silent
-忍び足	Steps
+聞き耳	Eavesdropping
+忍び足	Quiet Steps
 エルランド	Elland
 ポトフ	Pot-au-feu
 ソーセージ	Sausage
@@ -31,7 +31,7 @@
 ヒュージスライム	Huge Slime
 ベビースライム	Baby Slime
 固有スキル	Unique Skill
-フェル	Fer
+フェル	Fel
 ストーンバレット	Stone Bullet
 火魔法	Fire Magic
 風魔法	Wind Magic
@@ -40,21 +40,22 @@
 氷魔法	Ice Magic
 光魔法	Light Magic
 雷魔法	Lightning Magic
-神聖魔法	Sacred Magic
+神聖魔法	Holy Magic
 結界魔法	Barrier Magic
 草木魔法	Plant Magic
 魔力操作	Magic operation
-爪斬撃	Claw Slash
-身体強化	Physical Strengthening
+爪斬撃	Rending Claws
+身体強化	Body Reinforcement
 物理攻撃耐性	Physical Attack Resistance
 魔法攻撃耐性	Magic Attack Resistance
 魔力消費軽減	Magic Power Consumption Reduction
 戦闘強化	Battle Enhancement
-ニンリル	Ninril
+ニンリル	Ninrir
 ヴァハグン	Vulcan
 キシャール	Kishar
 アグニ	Agni
 デミウルゴス	Demiurg
+スイゃん	Sui-chan
 ドラちゃん	Dora-chan
 ドラち	Dora
 ピクシードラゴン	Pixie Dragon
@@ -62,6 +63,7 @@
 古竜の息吹	Ancient Dragon Breath
 ドラゴンブレス	Dragon Blessing
 ドラゴンブレス極	Dragon Blessing Extreme
+地竜	Earth Dragon
 エンシェントドラゴン	Ancient Dragon
 古竜	Ancient Dragon
 古竜の魂	Ancient Dragon Soul
@@ -69,7 +71,7 @@
 砲撃	Bombardment
 ビッグスライム	Big Slime
 酸弾	Acid Bullet
-回復薬生成	Restorative Medicine Creation
+回復薬生成	Potion Creation
 鍛冶	Smithing
 ルサールカ	Rusalka
 ヘファイストス	Hephaestus
@@ -77,3 +79,8 @@
 獲得経験値倍化	Double Experience Points
 キアユ草	Kiayu Grass
 マージュ草	Maju Grass
+オーク	Orc
+マーダーグリズリー	Murder Grizzly
+オーガ	Ogre
+ベヒモス	Behemoth
+カラドボルグ	Caladbolg
