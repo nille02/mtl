@@ -17,7 +17,10 @@ def convert_death_mage_chapter_title(chapter: novel.Chapter) -> novel.Chapter:
             if text[0].startswith("閑話"):
                 side_chapter = text[0].split("閑話", 1)
                 if len(side_chapter) == 2:
-                    text[0] = "Side Chapter {number}: ".format(number=convert_ja_numbers_to_latin(side_chapter[1]))
+                    if side_chapter[1] != "":
+                        text[0] = "Side Chapter {number}: ".format(number=convert_ja_numbers_to_latin(side_chapter[1]))
+                    else:
+                        text[0] = "Side Chapter:"
             if text[0].endswith("話"):
                 chapter_number = text[0].replace("話", "")
                 text[0] = "Chapter {number}: ".format(number=str(convert_written_ja_number_to_latin(chapter_number)))
@@ -137,7 +140,7 @@ wordlist = os.path.join(os.getcwd(), 'data/wordlist/')
 
 storage = storage.Storage(path, output, mtl, merged, wordlist)
 
-if False:
+if True:
     novel = storage.get_raw_novel('Death Mage Raw')
 
     for dm_chapters in novel.chapters:
@@ -156,4 +159,6 @@ if False:
 novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
 for tondemo_chapters in novel3.chapters:
     tondemo_chapters = convert_death_mage_chapter_title(tondemo_chapters)
+    pass
 storage.store_novel_as_block(novel3, 1000000000, False)
+storage.store_novel_as_block(novel3, 1, False)
