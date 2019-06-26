@@ -47,6 +47,7 @@
 ゴーレム錬成士	 Golem Transmuter
 ゴーレム練成	 Golem Creation
 ゴーレム創成	Golem Creation
+ゴーレム創生	Golem Creation
 奪熱	Heat Leech
 詠唱短縮	Chant Reduction
 詠唱破棄	Chant Revocation
@@ -95,6 +96,7 @@
 火属性耐性	Fire Element Resistance
 石盾	Stone Shield
 石壁	Stone Wall
+岩壁	Stone Wall
 無痛	Painlessness
 痛覚耐性	Pain Resistance
 魔力回復速度上昇	Increased Mana Recovery Rate
@@ -121,7 +123,7 @@
 回転斬り	Spinning Cut
 鑑定	Appraisal
 鑑定の魔眼	Magic Eye of Appraisal
-大鑑定の魔眼	Great Magic Eye of Appraisal
+大鑑定の魔眼	Magic Eye of Great Appraisal
 魔物鑑定	Monster Appraisal
 討伐証明鑑定	Extermination Proof Appraisal
 色香	Allure
@@ -147,6 +149,7 @@
 魔王の欠片	Demon King Fragment
 砲術	Artillery Technique
 魔王砲術	Demon King Artillery Technique
+加護	Divine Protection
 ヴィダの加護	Vida’s Divine Protection
 ザナルパドナの加護	Zanalpadna’s Divine Protection
 ヴァンダルーの加護	Vandalieu’s Divine Protection
@@ -203,6 +206,7 @@
 魔斧限界突破	Surpass Limits – Magic Axe
 実体化	Materialization
 剣装備時攻撃力強化：極大	Strengthened Attack Power when equipped with a Sword: Very Large
+刀装備時攻撃力強化：大	Strengthened Attack Power when equipped with a katana: Large
 非金属鎧装備時防御力強化：極大	Strengthened Defense Power when equipped with Non-metal Armor: Very Large
 直感	Intuition
 鎧術	Armor Technique
@@ -317,6 +321,7 @@
 盾装備時防御力強化：中	Strengthened Defensive Power when equipped with a Shield: Medium
 農業	Farming
 棍術	Club Technique
+龍棍術	Dragon Club Technique
 無棍術	No-Club Technique
 魔盾限界突破	Surpass Limits: Magic Shield
 筋力強化	Enhanced Muscular Strength
@@ -583,3 +588,8 @@
 エコー	Echo
 物体創造	Object Creation
 死角	Blind Spot
+岩砕	Boulder Smash
+重撃	Heavy Blow
+螺旋打ち	Screw Strike
+空拳	Air Fist
+十連抜き手	Ten Consecutive Overarm Blows
