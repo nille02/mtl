@@ -1,9 +1,19 @@
 グール	Ghoul
-セメタリービー	Cemetery Bee
+グールウィザード	Ghoul Wizard
+グールハイアーティザン	Ghoul High Artisan
+グールエルダーメイジ	Ghoul Elder Mage
+グールアマゾネス	Ghoul Amazoness
+グールアマゾネスリーダー	Ghoul Amazoness Leader
+グールアマゾネスクイーン	Ghoul Amazoness Queen
+グールソウルタイラント	Ghoul Soul Tyrant
 グールバーサーカー	Ghoul Berserker
+グールアークタイラント	Ghoul Arch-Tyrant
+グールタイラント	Ghoul Tyrant
+セメタリービー	Cemetery Bee
 スペクターバード	Specter Bird
 ブラッドキャリッジ	Blood Carriage
 リビングボーン	Living Bone
+骨猿	Bone Monkey
 アンデッド	Undead
 巨人種アンデッド	Undead Titan
 ダンピール	Dhampir
@@ -16,6 +26,7 @@
 ノーブルオークリーダー	Noble Orc Leader
 ノーブルオークハーフ	Half-Noble Orc
 ゴブリン	Goblin
+ゴブリンキング	Goblin King
 ハイゴブリン	High Goblin
 ブラックゴブリン	Black Goblin
 ブラックゴブリンスカウト	Black Goblin Scout
@@ -59,14 +70,23 @@
 ボーンビースト	Bone Beast
 スケルトン	Skeleton
 スケルトンソルジャー	Skeleton Soldier
+スケルトンナイト	Skeleton Knight
+スケルトンブレイドロード	Skeleton Blade Lord
+スケルトンマーキス	Skeleton Marquis
+スケルトンバイカウント	Skeleton Viscount
 ロトンビースト	Rotten Beast
+ゴースト	Ghost
+ウォーターゴースト	Water Ghost
 ゴーストキャリッジ	Ghost Carriage
+ブロードゴースト	Broad Ghost
+ブラッドブレイズゴースト	Blood Blaze Ghost
+ケイオスブロードゴースト	Chaos Broad Ghost
+ブリッツゴースト	Blitz Ghost
+シュバルツブリッツゴースト	Schwarz Blitz Ghost
+ブレイズゴースト	Blaze Ghost
 リビングハイレグアーマー	Living High-Leg Armor
 リビングビキニアーマー	Living Bikini Armor
 リビングアーマー	Living Armor
-グールアマゾネス	Ghoul Amazoness
-グールアマゾネスクイーン	Ghoul Amazoness Queen
-グールソウルタイラント	Ghoul Soul Tyrant
 ゾンビレジェンドヒーロー	Zombie Legend Hero
 ゾンビハイセイント	Zombie High Saint
 癒しの聖女	Saint of Healing
@@ -75,7 +95,6 @@
 ヴァンパイアデューク	Vampire Duke
 ヴァンパイアマーキスゾンビ	Vampire Marquess Zombie
 ノーライフキメラゾンビ	Lifeless Chimera Zombie
-スケルトンブレイドロード	Skeleton Blade Lord
 ボーンパレス	Bone Palace
 ナイトメアロードキャリッジ	Nightmare Lord Carriage
 サキュバスカースソードナイト	Succubus Cursed Sword Knight
@@ -86,35 +105,29 @@
 ヴァンパイアマーキス	Abyssal Vampire Marquis
 ヴァンパイアカウント	Vampire Count
 深淵種吸血鬼伯爵	Abyssal Vampire Count
-グールアークタイラント	Ghoul Arch-Tyrant
 ゾンビフォークロアヒーロー	Zombie Folklore Hero
+生ける肉塊	Living lump of flesh
 グレートレギオン	Great Legion
 エクリプスレギオン	Eclipse Legion
 ヴァンパイアカウントゾンビ	Vampire Countess Zombie
 ノーブルオークプランダーキング	Noble Orc Plunder King
 闘魔人ディアブロ	Battle-Majin Diablo
-スケルトンマーキス	Skeleton Marquis
 ゾンビエピックヒーロー	Zombie Epic Hero
 リザードマンハイジェロニモ	Lizardman High Geronimo
 ボーンフォート	Bone Fort
 ナイトメアキャリッジ	Nightmare Carriage
 リビングメイドアーマー	Living Maid Armor
-ブロードゴースト	Broad Ghost
-ブラッドブレイズゴースト	Blood Blaze Ghost
-ケイオスブロードゴースト	Chaos Broad Ghost
 スキュラハイシャーマン	Scylla High Shaman
 ヴァンパイアバイカウント	Vampire Viscount
 貴種吸血鬼子爵	Noble-born Vampire Viscount
 原種吸血鬼	Pure-breed Vampire
 深淵原種吸血鬼	Abyssal Pure-breed Vampire
-ブリッツゴースト	Blitz Ghost
-シュバルツブリッツゴースト	Schwarz Blitz Ghost
-ブレイズゴースト	Blaze Ghost
 黒雷光大百足	Great Black Lightning Centipede
 ランスセンチピード	Lance Centipede
 ハイパッチワークゾンビ	High Patchwork Zombie
+ネオパッチワークゾンビ	Neo Patchwork Zombie
+パッチワークヒュドラゾンビ	Patchwork Hydra Zombie
 マーダーキャリッジ	Murder Carriage
-グールタイラント	Ghoul Tyrant
 ユニオンボーン	Union of Bones
 カオスエルフソース	Chaos Elf Source
 カオスエルフ	Chaos Elf
@@ -125,6 +138,7 @@
 魔鉄轟雷大百足	Great Roaring Lightning Metal Demon Centipede
 スクーグクロー・エンプレス	Skogsrå Empress
 スクーグクロー	Skogsrå
+ヒュージスクーグクロ	Huge Skogsrå
 ゲヘナアブソリュートクイーンビー	Gehenna Absolute Queen Bee
 レッサーリッチ	Lesser Lich
 ハイマジックハイレグアーマー	High Magic High-Leg Armor
@@ -132,3 +146,9 @@
 ハイシルキー	High Silky
 ドヴェルグ	Dvärgens
 冥系人	Nether Race
+パッチワーク	Patchwork
+ゾンビ	Zombie
+ヒュドラ	Hydra
+ライフデッド	Life-dead
+ゴーレム	Golem
+ストーンゴーレム	Stone Golem

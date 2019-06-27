@@ -42,6 +42,7 @@
 死属性魅了	Death-Attribute Charm
 死属性魅力	Death-Attribute Charm
 限界突破	Surpass Limits
+魔槍限界突破	Surpass Limits – Magic Spear
 欠片限界突破	Surpass Limits: Fragments
 ゴーレム錬成	 Golem Transmutation
 ゴーレム錬成士	 Golem Transmuter
@@ -501,6 +502,7 @@
 捕食回復	Predator’s Restoration
 身体形状操作	Body Form Manipulation
 毒分泌	Venom Secretion
+猛毒分泌：牙	Deadly Venom Secretion (Fangs)
 毒分泌(神経毒)：顎角	Venom Secretion (Neurotoxin): Jaws
 毒分泌(爪牙舌)	Venom Secretion (Claws, Fangs, Tongue)
 猛毒分泌(爪牙舌)	Deadly Venom Secretion (Claws, Fangs, Tongue)
@@ -593,3 +595,17 @@
 螺旋打ち	Screw Strike
 空拳	Air Fist
 十連抜き手	Ten Consecutive Overarm Blows
+魔力超回復	Super Mana Recovery
+乗馬	Horseback Riding
+サバイバル	Survival
+人命救助	Lifesaving
+槍装備時能力値強化：中	Strengthened Attribute Values when equipped with a spear (Medium)
+非金属鎧装備時能力値強化：中	Strengthened Attribute Values when equipped with non-metal armor (Medium)
+奴隷強化	Strengthen Slaves
+熱狂：信仰	Fanaticism: Religion
+魔力回復：ダメージ	Mana Recovery: Damage
+身体伸縮：首	Body Extension (Neck)
+対敵	Hostility
+果実精製	Fruit Production
+樹液精製	Sap Production
+枝精製	Branch Production

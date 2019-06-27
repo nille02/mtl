@@ -4,6 +4,7 @@
 娼婦	Prostitute
 見習い武具職人	Apprentice Arms Smith
 武具職人	Arms Smith
+武具職人：名工	Arms Smith: Skilled Artisan
 奴隷	Slave
 弓術士	Archer
 霊媒師	Spiritualist
@@ -24,6 +25,7 @@
 戦士見習い	Apprentice Warrior
 神官戦士見習い	Apprentice Priest-warrior
 戦士	Warrior
+処刑戦士	Warrior Executioner
 神官戦士	Priest-warrior
 堕武者	Fallen Warrior
 霊闘士	Spirit Warrior
@@ -191,3 +193,10 @@
 匠	Artisan
 匠：武具職人	Artisan: Arms Smith
 武器職人：匠	Arms Smith: Artisan
+槍士	Spearman
+魔槍使い	Magic Spear User
+司祭	Priest
+惨殺処刑者	Slaughtering Executioner
+変幻術士	Shapeshifter
+重装歩兵	Heavy infantryman
+兵士見習い	Apprentice Soldier
