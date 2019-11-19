@@ -19,8 +19,8 @@ class Novel:
         if self.wordlist is not None:
             for chapter in self.chapters:
                 filtered_data = chapter.get_filtered_data()
-                for word in self.wordlist:
-                    filtered_data = filtered_data.replace(word[0], word[1])
+                # for word in self.wordlist: # This Block makes no sense.
+                #     filtered_data = filtered_data.replace(word[0], word[1])
                 chapter.data = filtered_data
         else:
             return self
@@ -96,7 +96,10 @@ class Chapter:
         if self.word_list is not None:
             self.word_list = self.__sort(self.word_list, reverse=True)
             for word in self.word_list:
-                data = data.replace(word[0], word[1])
+                if len(word) >= 2:
+                    data = data.replace(word[0], word[1])
+                else:
+                    print("Format Error:" + str(word))
 
         data = data.replace('<!--novel_bn-->\n', '')
 

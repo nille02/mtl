@@ -129,6 +129,7 @@ def return_double_ja_sign_to_number(text: str) -> int:
         number = 100 * return_single_ja_sign_to_number(text[0])
     return number
 
+
 input_path = "E:\\Niels\\Documents\\GitHub\\urlchanges\\SyosetuIndex"
 
 path = input_path
@@ -156,9 +157,10 @@ if True:
 #novel2 = storage.get_raw_novel('mom Please Do not come for adventure Raw')
 #storage.store_novel_as_block(novel2, 1, False)
 
-novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
-for tondemo_chapters in novel3.chapters:
-    tondemo_chapters = convert_death_mage_chapter_title(tondemo_chapters)
-    pass
-storage.store_novel_as_block(novel3, 1000000000, False)
-storage.store_novel_as_block(novel3, 1, False)
+if True:
+    novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
+    for tondemo_chapters in novel3.chapters:
+        tondemo_chapters = convert_death_mage_chapter_title(tondemo_chapters)
+        pass
+    storage.store_novel_as_block(novel3, 1000000000, False)
+    storage.store_novel_as_block(novel3, 1, False)

@@ -8,5 +8,5 @@ setup(
     license='',
     author='Niels',
     author_email='',
-    description=''
+    description='', install_requires=['requests']
 )

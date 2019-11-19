@@ -82,7 +82,9 @@ class Storage:
         first_id = None
         last_id = None
         data = ''
-        header = f"<!DOCTYPE html>\n<html>\n<head>\n<title>{novel.name} One Page</title>\n<meta charset=\"utf-8\"/>\n</head>\n<body>\n"
+        header = f"<!DOCTYPE html>\n<html>\n<head>\n<title>{novel.name} One Page</title>\n<meta charset=\"utf-8\"/>\n" \
+            f"<meta name=\"viewport\" content=\"width=device-width; initial-scale=1; maximum-scale=1\">\n" \
+            f"<link rel=\"stylesheet\" href=\"../styles.css\">\n</head>\n<body>"
         footer = "</body>\n</html>"
         header_footer_size = header + footer
         header_footer_size = len(header_footer_size.encode('utf-8'))

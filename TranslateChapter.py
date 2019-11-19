@@ -1,37 +1,48 @@
 import os
 import glob
-import re
-import lxml.html
-import utils
-import natsort
-
-import storage
+import csv
+import requests
+import json
+import unicodedata
 
 
-print("My Tests")
+def clean_filename(filename, replace=' '):
+    blacklist = "|*/\\%&$§!?=<>:\""
+    char_limit = 210
+    # replace spaces
+    for r in replace:
+        filename = filename.replace(r, '_')
 
-path = os.path.join(os.getcwd(), 'data/novels/')
-output = os.path.join(os.getcwd(), 'data/output/')
-mtl = os.path.join(os.getcwd(), 'data/mtl/')
-merged = os.path.join(os.getcwd(), 'data/merged/')
-wordlist = os.path.join(os.getcwd(), 'data/wordlist/')
+    # keep only valid ascii chars
+    cleaned_filename = unicodedata.normalize('NFKD', filename)
 
-storage = storage.Storage(path, output, mtl, merged, wordlist)
-
-#novels = storage.load_all_raw()
-novel = storage.get_raw_novel('Death Mage Raw')
-
-#print("Test: " + novel.chapters[1].merged_data)
-
-storage.store_raw_novel(novel)
+    # remove blacklistet chars
+    cleaned_filename = ''.join(c for c in cleaned_filename if c not in blacklist)
+    if len(cleaned_filename) > char_limit:
+        print(
+            "Warning, filename truncated because it was over {}. Filenames may no longer be unique".format(char_limit))
+    return cleaned_filename[:char_limit]
 
 
-#storage.store_all_raw_novel(novels)
+OUTPUT_DIRECTORY = os.path.join(os.getcwd(), 'Imported Wordlist')
 
-print("Generate Full Version")
-storage.store_novel_as_block(novel, 100000000, False)
+NOVEL_URL = "http://mtl.maikoengelke.com/api/novel"  # Returns full novel List
+DICTIONARYS = "http://mtl.maikoengelke.com/api/dictionary/"  # Return the List of dictionary's for the given Novel
+CATEGORY = "http://mtl.maikoengelke.com/api/category/"  # Return the category's of the selected dictionary
+KEYWORDS = "http://mtl.maikoengelke.com/api/entry/"  # Returns the Keyword list of the selected category id
 
-#storage.store_all_novel_as_block(novels, 1000000)
+r = requests.get(url=CATEGORY + '1')  # We request MBAs dictionary for Death Mage
+categorys = r.json()
 
-print('\a')
-exit(0)
+for category in categorys:
+    request_wordlist = requests.get(url=KEYWORDS+str(category['id']))   # Returns the current Wordlist from the current category
+    category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowd in filenames
+    output = os.path.join(OUTPUT_DIRECTORY, ('MBA-' + category['name'] + '.tsv'))
+    with open(output, 'w+', encoding='utf-8') as writer:
+        for keyword in request_wordlist.json():
+            if keyword['description'] is None:
+                line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\n"
+            else:
+                line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\t{keyword['description']}\n"
+
+            writer.writelines(line)
