@@ -255,8 +255,6 @@
 罠	Trap
 暗殺術	Assassination Technique
 教師	教師	Teaching
-体力増強	Augmented Stamina
-生命力増強	Augmented Vitality
 病毒耐性	Disease and Poison Resistance
 飢餓・病毒耐性	Hunger, Disease and Poison Resistance
 農業	Farming
@@ -429,7 +427,6 @@
 体内世界	Body World
 変身	Transform	HENSHIN
 天性の才：二槍流	Natural Genius: Two Spear Style
--	-
 盾骨術	Bone Shield Technique
 鎧骨術	Bone Armor Technique
 ロージェフィフィの加護	Rojefifi’s Divine Protection
@@ -443,7 +440,7 @@
 根源	Root
 群隊	Coordination
 怨投術	Grudge Throw Arts
-身体無限伸縮	Body Expansion
+身体無限伸縮	Infinite Body Expansion and Contraction
 虚界神魔術	Hollow Boundary God Magic
 冥界神魔術	Netherworld God Magic
 命帝魔術師	Life-Emperor Mage
@@ -656,7 +653,6 @@
 発光	Luminescence
 任務	mission
 威圧	Intimidation
--	-
 冒険	Adventure
 刎頸術	Decapitation Technique
 絶在	Nihility	Undetectable, Awakened Silent Steps
