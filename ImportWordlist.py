@@ -36,7 +36,7 @@ categorys = r.json()
 for category in categorys:
     request_wordlist = requests.get(url=KEYWORDS+str(category['id']))   # Returns the current Wordlist from the current category
     print('Saving: ' + category['name'])
-    category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowd in filenames
+    category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowed in filenames
     output = os.path.join(OUTPUT_DIRECTORY, ('MBA-' + category['name'] + '.tsv'))
     with open(output, 'w+', encoding='utf-8') as writer:
         for keyword in request_wordlist.json():

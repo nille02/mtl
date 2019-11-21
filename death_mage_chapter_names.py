@@ -135,11 +135,9 @@ input_path = "E:\\Niels\\Documents\\GitHub\\urlchanges\\SyosetuIndex"
 path = input_path
 
 output = os.path.join(os.getcwd(), 'data/output/')
-mtl = os.path.join(os.getcwd(), 'data/mtl/')
-merged = os.path.join(os.getcwd(), 'data/merged/')
 wordlist = os.path.join(os.getcwd(), 'data/wordlist/')
 
-storage = storage.Storage(path, output, mtl, merged, wordlist)
+storage = storage.Storage(path, output, wordlist)
 
 if True:
     novel = storage.get_raw_novel('Death Mage Raw')
