@@ -97,9 +97,12 @@ class Chapter:
             self.word_list = self.__sort(self.word_list, reverse=True)
             for word in self.word_list:
                 if len(word) >= 2:
-                    data = data.replace(word[0], word[1])
+                    data = data.replace(word[0], '[['+word[1]+']]')  # We add [[ and ]] before and after each keyword, later we replace them or delete them.
                 else:
                     print("Format Error:" + str(word))
+
+            data = data.replace(']][[', ' ')  # If we have 2 Keywords to close together, we add a space
+            data = data.replace(']]', '').replace('[[', '')
 
         data = data.replace('<!--novel_bn-->\n', '')
 

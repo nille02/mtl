@@ -19,8 +19,7 @@ def clean_filename(filename, replace=' '):
     # remove blacklistet chars
     cleaned_filename = ''.join(c for c in cleaned_filename if c not in blacklist)
     if len(cleaned_filename) > char_limit:
-        print(
-            "Warning, filename truncated because it was over {}. Filenames may no longer be unique".format(char_limit))
+        print(f"Warning, filename truncated because it was over {char_limit}. Filenames may no longer be unique")
     return cleaned_filename[:char_limit]
 
 
@@ -36,10 +35,13 @@ categorys = r.json()
 
 for category in categorys:
     request_wordlist = requests.get(url=KEYWORDS+str(category['id']))   # Returns the current Wordlist from the current category
+    print('Saving: ' + category['name'])
     category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowd in filenames
     output = os.path.join(OUTPUT_DIRECTORY, ('MBA-' + category['name'] + '.tsv'))
     with open(output, 'w+', encoding='utf-8') as writer:
         for keyword in request_wordlist.json():
+            if keyword['entryOriginal'] == '-' and keyword['entryTranslation'] == '-':  # If we find just a '-', its a deleted Keyword
+                continue
             if keyword['description'] is None:
                 line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\n"
             else:
