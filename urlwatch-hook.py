@@ -51,6 +51,18 @@ class bUnicodeDummy(filters.FilterBase):
         return data
 
 
+class bNoHash(filters.FilterBase):
+    """This is a Dummyfilter for git-report
+    If set to True the URL Hash is not added to the Filename.
+    """
+    __kind__ = 'bNoHash'
+
+    def filter(self, data, subfilter=None):
+        if subfilter is None:
+            subfilter = True
+        return data
+
+
 class SyosetuFilter(filters.FilterBase):
     """Its a Novel Chapter Filter for ncode.syosetsu.com"""
     __kind__ = "Syosetu"
@@ -198,12 +210,13 @@ class GitReport(reporters.ReporterBase):
         if repo.remotes != []:
             print("Fetch and Pull from Git Repository")
             remote = True
-            repo.remotes.origin.fetch()  # Tthis 2 Steps need some time.
+            repo.remotes.origin.fetch()  # This 2 Steps need some time.
             repo.remotes.origin.pull()
         else:
             remote = False
 
         commit_message = ""
+        new_files = []
 
         # Write all Changes.
         for job_state in self.report.get_filtered_job_states(self.job_states):
@@ -215,10 +228,16 @@ class GitReport(reporters.ReporterBase):
             # if we find git-path filter then lets read its parameter
             filters = {}
             if job_state.job.filter is not None:
-                filterslist = job_state.job.filter.split(',')
-                for key in filterslist:
-                    if len(key.split(':', 1)) == 2:
-                        filters[key.split(':', 1)[0]] = key.split(':', 1)[1]
+                if isinstance(job_state.job.filter, list):
+                    for item in job_state.job.filter:
+                        key = next(iter(item))
+                        filter_kind, filter_value = key, item[key]
+                        filters[filter_kind] = filter_value
+                elif isinstance(job_state.job.filter, str):
+                    filterslist = job_state.job.filter.split(',')
+                    for key in filterslist:
+                        if len(key.split(':', 1)) == 2:
+                            filters[key.split(':', 1)[0]] = key.split(':', 1)[1]
 
             parsed_uri = urlparse(job_state.job.get_location())
             result = '{uri.netloc}'.format(uri=parsed_uri)
@@ -238,18 +257,25 @@ class GitReport(reporters.ReporterBase):
                 filename = self.clean_filename2(job_state.job.pretty_name())
             else:
                 filename = self.clean_filename(job_state.job.pretty_name())
-            filename = filename + '.' + job_state.job.get_guid() + '.txt'
+
+            # Check if the Filename is presend without the hash or if the usage of the hash is diabled. If so, use that file instead.
+            if (os.path.exists(os.path.join(job_path, filename + '.txt')) and os.path.isfile(os.path.join(job_path, filename + '.txt')) or filters.get('bNoHash', False)):
+                filename += '.txt'
+            else:
+                filename += '.' + job_state.job.get_guid() + '.txt'
+
 
             # Create the File or override the old file
             with open(os.path.join(job_path, filename), 'w+', encoding='utf-8') as writer:
                 writer.write(job_state.new_data)
 
-            repo.index.add([os.path.join(job_path, filename)])
+            new_files.append(os.path.join(job_path, filename))
             message = "%s\n%s \n%s\n\n" % (job_state.job.pretty_name(), result, job_state.job.get_location())
             commit_message += message
 
         # Add all Changes in one Commit
         if (len(list(self.report.get_filtered_job_states(self.job_states))) > 0):
+            repo.index.add(new_files)
             repo.index.commit(commit_message)
 
         # Check if we have a remote Repository and push the changes.
