@@ -10,10 +10,9 @@ class Novel:
     chapters: List
     name: str
 
-    def __init__(self, name, chapters, wordlist=None):
+    def __init__(self, name, chapters):
         self.name = name
         self.chapters = chapters
-        self.wordlist = wordlist
 
 
 class Chapter:
@@ -23,15 +22,16 @@ class Chapter:
     novelname: str
     data: str
     savename: str
+    chapter_name: str
 
-    def __init__(self, chapterid, novelname, name, data, savename, wordlist=None):
+    def __init__(self, chapterid, novelname, name, data, savename, wordlist=None, chapter_name=""):
         self.chapterid = chapterid
         self.name = name
         self.novelname = novelname
         self.data = data
         self.savename = savename
-        self.mtl_data = None
         self.word_list = wordlist
+        self.chapter_name = chapter_name
 
     @property
     def size(self) -> int:

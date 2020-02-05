@@ -6,6 +6,8 @@ import lxml
 import csv
 
 import natsort
+import unicodedata
+
 from novel import Chapter
 from novel import Novel
 
@@ -25,7 +27,7 @@ class Storage:
     def get_raw_novel(self, name: str) -> Novel:
         novelpath = os.path.join(self.RAW_ROOT_PATH, name)
         if not os.path.exists(novelpath):
-            return None
+            raise IOError('Novel not Found.')
         chapters = []
         for file in natsort.natsorted(glob.glob(novelpath + "/*.txt", recursive=False)):
             matches = self.RAW_MATCH.match(str(os.path.split(file)[1]))
@@ -59,8 +61,7 @@ class Storage:
             raise IOError('File with the same Name already exist.')
 
         for chapter in novel.chapters:
-            filename = "{id}-{name}-{chaptername}.html".format(id=chapter.chapterid, name=chapter.savename,
-                                                               chaptername=chapter.name)
+            filename = f"{chapter.chapterid}-{chapter.savename}-{chapter.name}.html"
             with open(os.path.join(output, filename), 'w+', encoding='utf-8') as writer:
                 writer.write(chapter.get_filtered_data())
 
@@ -101,8 +102,13 @@ class Storage:
             last_id = chapter.chapterid
 
             if size > blocksize or chapters_left == 1:
-                filename = "{firstid}-{lastid}.{shortname}.html".format(firstid=first_id, lastid=last_id,
-                                                                        shortname=chapter.savename)
+                if first_id == last_id:
+                    if chapter.chapter_name == "":
+                        filename = f"{first_id}.{chapter.savename}.html"
+                    else:
+                        filename = f"{first_id}.{chapter.savename}-{self.__clean_filename(chapter.chapter_name)}.html"
+                else:
+                    filename = f"{first_id}-{last_id}.{chapter.savename}.html"
                 with open(os.path.join(novel_output_path, filename), 'w+', encoding='utf-8') as writer:
                     data = header + data + footer
                     writer.write(data)
@@ -129,3 +135,20 @@ class Storage:
                 for word in wordlist:
                     replacements.append(word)
         return replacements
+
+    @staticmethod
+    def __clean_filename(filename, replace=' '):
+        blacklist = "|*/\\%&$§!?=<>:\""
+        char_limit = 210
+        # replace spaces
+        for r in replace:
+            filename = filename.replace(r, '_')
+
+        # keep only valid ascii chars
+        cleaned_filename = unicodedata.normalize('NFKD', filename)
+
+        # remove blacklistet chars
+        cleaned_filename = ''.join(c for c in cleaned_filename if c not in blacklist)
+        if len(cleaned_filename) > char_limit:
+            print(f"Warning, filename truncated because it was over {char_limit}. Filenames may no longer be unique")
+        return cleaned_filename[:char_limit]

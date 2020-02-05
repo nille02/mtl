@@ -6,6 +6,17 @@ import json
 import unicodedata
 
 
+def ignore_keyword(entry: str, translation: str):  # We ignore some Keywords that helps to understand who is talking but translation gets more troubblesome with them.
+    blacklist = ["WARERA", "WAREWARE", "WARE", "WATAKUSHI", "SESSHA", "BOKU", "WASHI", "ATASHI", "WATASHI",
+                 "nanoyo", "degozaru", "degozaruna", "degozaruyo", "degozaruka", "nojana", "jarou", "nojazo", "nojaga",
+                 "desuka", "nojarou", "noja", "nojayo", "Boya", "Umu", "ja！", "joo", "juu", "ussu", "ssu"
+                 ]
+    for word in blacklist:
+        if word == entry or word == translation:
+            return True
+    return False
+
+
 def clean_filename(filename, replace=' '):
     blacklist = "|*/\\%&$§!?=<>:\""
     char_limit = 210
@@ -40,6 +51,9 @@ for category in categorys:
     output = os.path.join(OUTPUT_DIRECTORY, ('MBA-' + category['name'] + '.tsv'))
     with open(output, 'w+', encoding='utf-8') as writer:
         for keyword in request_wordlist.json():
+
+            if ignore_keyword(keyword['entryOriginal'], keyword['entryTranslation']):  # Exclude Blacklist
+                continue
             if keyword['entryOriginal'] == '-' and keyword['entryTranslation'] == '-':  # If we find just a '-', its a deleted Keyword
                 continue
             if keyword['description'] is None:
