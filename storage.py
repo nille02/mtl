@@ -78,7 +78,7 @@ class Storage:
         header = f"<!DOCTYPE html>\n<html>\n<head>\n<title>{novel.name} One Page</title>\n<meta charset=\"utf-8\"/>\n" \
             f"<meta name=\"viewport\" content=\"width=device-width; initial-scale=1; maximum-scale=1\">\n" \
             f"<link rel=\"stylesheet\" href=\"../styles.css\">\n</head>\n<body>"
-        footer = "</body>\n</html>"
+        footer = "\n<script language='javascript' type='text/javascript' src='../page.js'></script>\n</body>\n</html>"
         header_footer_size = header + footer
 
         header_footer_size = len(header_footer_size.encode('utf-8'))
@@ -121,23 +121,41 @@ class Storage:
 
             chapters_left -= 1
 
+        # Write all chapters from the write queue and add back and forward links
         for i in range(len(write_queue)):
 
-            toc_header = "\n<div style='text-align:center'>"
-            toc_footer = "</div>\n"
+            toc_header = "\n<div id='toc' style='text-align:center'>"
+            toc_footer = "<br><a id='togoogle' target='_blank' style='display:none'>To Google Translate</a></div>\n"
 
             if i == 0:
-                toc_line = f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
+                toc_line = f"&lt;- Previous | <a href='index.html'>TOC</a> | " \
+                           f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
             elif i == (len(write_queue) - 1):
-                toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a>"
+                toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
+                           f"<a href='index.html'>TOC</a> | Next -&gt;"
             else:
                 toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
-                           f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
+                           f"<a href='index.html'>TOC</a> | <a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
 
             toc = toc_header + toc_line + toc_footer
             with open(os.path.join(novel_output_path, write_queue[i]['filename']), 'w+', encoding='utf-8') as writer:
                 write_queue[i]['data'] = header + toc + "<hr>\n" + write_queue[i]['data'] + "\n<hr>" + toc + footer
                 writer.write(write_queue[i]['data'])
+
+        # Generate Index
+        index_header = f"<h1>{novel.name} Index</h1><br><ul style='list-style-type:none;'>\n"
+        index_footer = "\n</ul>"
+        index = ""
+
+        for entry in write_queue:
+            name = entry['filename'].replace(".html", "")
+            name = name.strip("_")
+            index += f"<li><a href='{entry['filename']}' target='_blank'>{name}</a></li>\n"
+
+        index = index_header + index + index_footer
+        with open(os.path.join(novel_output_path, "index.html"), 'w+', encoding='utf-8') as writer:
+            index = header + index + footer
+            writer.write(index)
 
     def store_all_novel_as_block(self, novels: List[Novel], blocksize: int):
         for novel in novels:
