@@ -1,10 +1,16 @@
-body { 
+body {
+	background-color: black;
+	color: lightgrey;
 	font-size: 1.05em;
 	line-height: 1.25em;
 }
 a {
+	color: lightgrey;
 	text-decoration: none;
 	font-weight: bold;
+}
+a:visited {
+	color: grey;
 }
 img {
 	width: 100%;

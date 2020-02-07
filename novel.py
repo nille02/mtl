@@ -22,16 +22,16 @@ class Chapter:
     novelname: str
     data: str
     savename: str
-    chapter_name: str
+    chapter_number: str
 
-    def __init__(self, chapterid, novelname, name, data, savename, wordlist=None, chapter_name=""):
+    def __init__(self, chapterid, novelname, name, data, savename, wordlist=None, chapter_number=""):
         self.chapterid = chapterid
         self.name = name
         self.novelname = novelname
         self.data = data
         self.savename = savename
         self.word_list = wordlist
-        self.chapter_name = chapter_name
+        self.chapter_number = chapter_number
 
     @property
     def size(self) -> int:

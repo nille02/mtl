@@ -80,6 +80,7 @@ class Storage:
             f"<link rel=\"stylesheet\" href=\"../styles.css\">\n</head>\n<body>"
         footer = "</body>\n</html>"
         header_footer_size = header + footer
+
         header_footer_size = len(header_footer_size.encode('utf-8'))
         size = header_footer_size
 
@@ -92,6 +93,8 @@ class Storage:
         elif os.path.isfile(novel_output_path):
             raise IOError('File with the same Name already exist.')
 
+        write_queue = []
+
         for chapter in novel.chapters:
             if first_id is None:
                 first_id = chapter.chapterid
@@ -103,20 +106,38 @@ class Storage:
 
             if size > blocksize or chapters_left == 1:
                 if first_id == last_id:
-                    if chapter.chapter_name == "":
+                    if chapter.chapter_number == "":
                         filename = f"{first_id}.{chapter.savename}.html"
                     else:
-                        filename = f"{first_id}.{chapter.savename}-{self.__clean_filename(chapter.chapter_name)}.html"
+                        filename = f"{first_id}.{chapter.savename}-{self.__clean_filename(chapter.chapter_number)}.html"
                 else:
                     filename = f"{first_id}-{last_id}.{chapter.savename}.html"
-                with open(os.path.join(novel_output_path, filename), 'w+', encoding='utf-8') as writer:
-                    data = header + data + footer
-                    writer.write(data)
-                    data = ''
-                    size = header_footer_size
-                    first_id = None
+
+                write_queue.append({"filename": filename,
+                                    "data": data})
+                data = ''
+                size = header_footer_size
+                first_id = None
 
             chapters_left -= 1
+
+        for i in range(len(write_queue)):
+
+            toc_header = "\n<div style='text-align:center'>"
+            toc_footer = "</div>\n"
+
+            if i == 0:
+                toc_line = f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
+            elif i == (len(write_queue) - 1):
+                toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a>"
+            else:
+                toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
+                           f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
+
+            toc = toc_header + toc_line + toc_footer
+            with open(os.path.join(novel_output_path, write_queue[i]['filename']), 'w+', encoding='utf-8') as writer:
+                write_queue[i]['data'] = header + toc + "<hr>\n" + write_queue[i]['data'] + "\n<hr>" + toc + footer
+                writer.write(write_queue[i]['data'])
 
     def store_all_novel_as_block(self, novels: List[Novel], blocksize: int):
         for novel in novels:

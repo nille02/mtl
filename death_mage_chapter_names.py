@@ -14,20 +14,20 @@ def convert_death_mage_chapter_title(chapter: novel.Chapter) -> novel.Chapter:
         if len(text) == 2:
             if text[0] == "序章":
                 text[0] = "Prologue:"
-                chapter.chapter_name = text[0]
+                chapter.chapter_number = text[0]
             if text[0].startswith("閑話"):
                 side_chapter = text[0].split("閑話", 1)
                 if len(side_chapter) == 2:
                     if side_chapter[1] != "":
                         text[0] = "Side Chapter {number}: ".format(number=convert_ja_numbers_to_latin(side_chapter[1]))
-                        chapter.chapter_name = text[0]
+                        chapter.chapter_number = text[0]
                     else:
                         text[0] = "Side Chapter:"
-                        chapter.chapter_name = text[0]
+                        chapter.chapter_number = text[0]
             if text[0].endswith("話"):
                 chapter_number = text[0].replace("話", "")
                 text[0] = "Chapter {number}: ".format(number=str(convert_written_ja_number_to_latin(chapter_number)))
-                chapter.chapter_name = text[0]
+                chapter.chapter_number = text[0]
         headline.text = " ".join(text)
 
     chapter.data = lxml.html.tostring(content, encoding='unicode')
