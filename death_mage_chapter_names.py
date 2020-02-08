@@ -150,19 +150,19 @@ if True:
     for dm_chapters in novel.chapters:
         dm_chapters = convert_death_mage_chapter_title(dm_chapters)
 
-    storage.store_novel_as_block(novel, 1)
+    storage.store_novel_as_block(novel, 1, True)
     # storage.store_novel_as_block(novel, 10000000000)
 
 if False:
     print("Immortal Adventurer")
     novel2 = storage.get_raw_novel('Immortal Adventurer')
-    storage.store_novel_as_block(novel2, 1)
+    storage.store_novel_as_block(novel2, 1, True)
     # storage.store_novel_as_block(novel2, 1000000000)
 
 if False:
     print("mom Please Do not come for adventure Raw")
     novel2 = storage.get_raw_novel('mom Please Do not come for adventure Raw')
-    storage.store_novel_as_block(novel2, 1)
+    storage.store_novel_as_block(novel2, 1, True)
     storage.store_novel_as_block(novel2, 1000000000)
 
 if False:
@@ -172,4 +172,4 @@ if False:
         tondemo_chapter = convert_death_mage_chapter_title(tondemo_chapter)
         pass
     # storage.store_novel_as_block(novel3, 1000000000)
-    storage.store_novel_as_block(novel3, 1)
+    storage.store_novel_as_block(novel3, 1, True)

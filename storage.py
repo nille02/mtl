@@ -70,7 +70,7 @@ class Storage:
         for novel in novels:
             self.store_raw_novel(novel)
 
-    def store_novel_as_block(self, novel: Novel, blocksize: int):
+    def store_novel_as_block(self, novel: Novel, blocksize: int, generate_index=False):
 
         first_id = None
         last_id = None
@@ -125,37 +125,40 @@ class Storage:
         for i in range(len(write_queue)):
 
             toc_header = "\n<div id='toc' style='text-align:center'>"
-            toc_footer = "<br><a id='togoogle' target='_blank' style='display:none'>To Google Translate</a></div>\n"
+            toc_footer = "<br><a id='togoogle' target='_self' style='display:none'>To Google Translate</a></div>\n"
 
             if i == 0:
-                toc_line = f"&lt;- Previous | <a href='index.html'>TOC</a> | " \
+                toc_line = f"<a href='index.html'>TOC</a> | " \
                            f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
             elif i == (len(write_queue) - 1):
                 toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
-                           f"<a href='index.html'>TOC</a> | Next -&gt;"
+                           f"<a href='index.html'>TOC</a>"
             else:
                 toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
                            f"<a href='index.html'>TOC</a> | <a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
-
+            if novel.name == "Death Mage Raw":
+                toc_footer += "<div>Special thanks to MBA, Tamachii and the Users from the LBN #spoilers Discord. " \
+                              "Without them this would not be possible.</div>"
             toc = toc_header + toc_line + toc_footer
             with open(os.path.join(novel_output_path, write_queue[i]['filename']), 'w+', encoding='utf-8') as writer:
                 write_queue[i]['data'] = header + toc + "<hr>\n" + write_queue[i]['data'] + "\n<hr>" + toc + footer
                 writer.write(write_queue[i]['data'])
 
         # Generate Index
-        index_header = f"<h1>{novel.name} Index</h1><br><ul style='list-style-type:none;'>\n"
-        index_footer = "\n</ul>"
-        index = ""
+        if generate_index:
+            index_header = f"<h1>{novel.name} Index</h1><br><ul style='list-style-type:none;'>\n"
+            index_footer = "\n</ul>"
+            index = ""
 
-        for entry in write_queue:
-            name = entry['filename'].replace(".html", "")
-            name = name.strip("_")
-            index += f"<li><a href='{entry['filename']}' target='_blank'>{name}</a></li>\n"
+            for entry in write_queue:
+                name = entry['filename'].replace(".html", "")
+                name = name.strip("_")
+                index += f"<li><a href='{entry['filename']}' target='_blank'>{name}</a></li>\n"
 
-        index = index_header + index + index_footer
-        with open(os.path.join(novel_output_path, "index.html"), 'w+', encoding='utf-8') as writer:
-            index = header + index + footer
-            writer.write(index)
+            index = index_header + index + index_footer
+            with open(os.path.join(novel_output_path, "index.html"), 'w+', encoding='utf-8') as writer:
+                index = header + index + footer
+                writer.write(index)
 
     def store_all_novel_as_block(self, novels: List[Novel], blocksize: int):
         for novel in novels:
