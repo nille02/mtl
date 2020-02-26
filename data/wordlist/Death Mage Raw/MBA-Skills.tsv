@@ -12,7 +12,7 @@
 繁殖	Breeding
 停撃の結界	Impact-Negating Barrier
 吸魔の結界	Magic Absorption Barrier
-状態異常耐性	Status Effect Resistance
+状態異常耐性	Abnormal Condition Resistance
 死属性耐性	Death Attribute Resistance
 魔術耐性	Magic Resistance
 蹴打	Kicking Strike
@@ -89,10 +89,10 @@
 【灯】	[Torch]
 特殊五感	Special Five Senses
 身体能力強化	Physical Ability Enhancement
-水属性耐性	Water Element Resistance
+水属性耐性	Water-Attribute Resistance
 物理攻撃耐性	Physical Attack Resistance
 家事	Housework
-火属性耐性	Fire Element Resistance
+火属性耐性	Fire-Atribute Resistance
 石盾	Stone Shield
 石壁	Stone Wall
 無痛	Painlessness
@@ -107,7 +107,7 @@
 限定的錬金術	Limited Alchemy
 状態異常	Status Effect
 状態異常無効	Status Effect Immunity
-眷属強化	Strengthen Follower
+眷属	Followers
 斧術	Axe Technique
 無斧術	No-Axe Technique
 格闘術	Unarmed Fighting Technique
@@ -148,9 +148,9 @@
 魔王砲術	Demon King Artillery Technique
 地球の冥神の加護	Earth’s Dark Gods’ Divine Protection
 魔力自動回復	Automatic Mana Recovery
-自己強化	Self-Enhancement
+自己	Self
 猛突撃	Fierce Charge
-自己超強化	Super Self-enhancement
+超強化	Super Enhanced (1)
 同時発動	Multi-Cast
 並列思考	Parallel Thought Processing
 群体思考	Group Thought Processing
@@ -233,7 +233,7 @@
 自己再生	Self-Regeneration
 リベンジ	Revenge
 共食い	Cannibalism
-全属性耐性	All Attributes Resistance
+全属性耐性	All-Attribute Resistance
 ザッカートの試練	Trial of Zakkart
 ゲイザー	Gazer
 ペルセウス	Perseus
@@ -325,9 +325,9 @@
 全属性適性	All-Attributes Affinity
 狩弓神術	Hunting God Archery
 命帝魔術	Life Emperor Magic
-精霊魔術	Spiritual Magic
+精霊魔術	Spirit Magic
 女神降臨	Goddess Descent
-カオスエルフの祖	Chaos Elf's Founder
+カオスエルフの祖	Chaos Elf's Ancestor
 神鉄骨格	Divine Metal Skeleton
 再生の魔眼	Magic Eye of Regeneration
 混沌	Chaos
@@ -348,7 +348,7 @@
 ファーマウンの加護	Farmaun’s Divine Protection
 ティアマトの加護	Tiamat’s Divine Protection
 分体	Fission
-建築	Construction
+建築	Architecture
 魔王融合	Demon King Fusion
 魔王侵食度	Demon King Encroachment
 ノーライフキラー	No-Life Killer
@@ -428,7 +428,6 @@
 盾骨術	Bone Shield Technique
 鎧骨術	Bone Armor Technique
 ロージェフィフィの加護	Rojefifi’s Divine Protection
-自己超強化：従属	Super Self-Enhancement: Dependent
 炎熱精密操作	Precise Flame Heat Operation
 性能強化	Enhanced Performance	Amemiya
 幸運強化	Enhanced Luck	Amemiya
