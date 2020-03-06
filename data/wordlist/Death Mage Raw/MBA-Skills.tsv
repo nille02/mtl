@@ -41,7 +41,7 @@
 精神汚染	Mental Corruption
 死属性魅了	Death-Attribute Charm
 死属性魅力	Death-Attribute Charm
-限界突破	Surpass Limits
+限界突破	-Surpass Limits-
 欠片限界突破	Surpass Limits: Fragments
 ゴーレム錬成	Golem Transmutation
 ゴーレム錬成士	Golem Transmuter
@@ -52,7 +52,7 @@
 詠唱破棄	Chant Revocation
 降霊	Spirit Communication
 忍び足	Silent Steps
-剣術	Swordsmanship
+剣術	Sword Technique
 無剣術	No-Sword Technique
 短剣術	Dagger Technique
 竈流短剣術	Hearth-Style Dagger Technique
@@ -76,14 +76,14 @@
 霊体	Spirit Form
 霊体化	Spirit Form Transformation
 魂魄体	Soul Form
-高速飛行	Swift Flight
+高速飛行	High-Speed Flight
 命輝剣	Life Light Sword
 錬神術	God Alchemy
 危険感知	Danger Sense
 悪路走行	Rough Road Travel
 衝撃耐性	Impact Resistance
 精密駆動	Precise Driving
-高速走行	High-Speed Travel
+高速走行	High-Speed Running
 突撃	Charge
 鮮度維持	Preservation
 【灯】	[Torch]
@@ -98,7 +98,7 @@
 無痛	Painlessness
 痛覚耐性	Pain Resistance
 麻痺毒分泌	Paralyzing Venom Secretion
-魔力回復速度上昇	Increased Mana Recovery Rate
+魔力回復速度上昇	Mana Recovery Rate Increase
 光属性魔術	Light-Attribute Magic
 風属性魔術	Wind-Attribute Magic
 無属性魔術	No-Attribute Magic
@@ -166,7 +166,6 @@
 精神耐性	Mental Resistance
 伐採	Deforestation
 解体	Dismantling
-魔斧限界突破	Surpass Limits – Magic Axe
 実体化	Materialization
 直感	Intuition
 鎧術	Armor Technique
@@ -182,7 +181,6 @@
 生命属性魔術	Life-Attribute Magic
 盗む	Steal
 魔闘術	Magic Fighting Technique
-魔剣限界突破	Surpass Limits: Magic Sword
 魅了の魔眼	Charming Magic Eyes
 騎乗	Mount
 殺戮回復	Slaughter Healing
@@ -192,7 +190,6 @@
 追跡	Pursuit
 拷問	Torture
 変幻	Transformation
-魔力増強	Augmented Mana
 魔力使用量減少	Mana Cost Reduction
 疲労・飢餓耐性	Fatigue/Hunger Resistance
 土属性魔術	Earth-Attribute Magic
@@ -204,13 +201,11 @@
 ゼルクスの加護	Xerx’s Divine Protection
 快適維持	Comfort Maintenance
 空間拡張	Space Expansion
-空中走行	Air-running
+空中走行	Air Running
 サイズ変更	Size Alteration
 槍術	Spear Technique
 無槍術	No-Spear Technique
 空間属性魔術	Space-Attribute Magic
-従属強化	Strengthen Subordinates
-生命力強化	Vitality Enlargement
 呪霊剣限界突破	Surpass Limits – Cursed Spirit Sword
 幻影変身	Illusory Transformation
 精気吸収	Drain Vitality
@@ -243,7 +238,7 @@
 下位種族支配	Inferior Race Domination
 魔道牙剣術	Demon Path Fang Sword Technique
 分霊降臨	Spirit Clone Descent
-魔鎧限界突破	Surpass Limits: Magic Armor
+魔鎧	Magic Armor
 魔道	Demon Path
 糸精製	Thread Refining
 刀術	Katana Technique
@@ -260,7 +255,7 @@
 棍術	Club Technique
 無棍術	No-Club Technique
 魔盾限界突破	Surpass Limits: Magic Shield
-筋力強化	Enhanced Muscular Strength
+筋力	Muscular Strength
 漁業	Fishing
 地属性魔術	Earth-Attribute Magic
 獣道	Beast Path
@@ -281,13 +276,13 @@
 悪食	Bad Eating
 調教	Training
 料理	Cooking	somestimes can mean dishes
-治癒効果増大	Healing Magic Effect Enlargement
+治癒効果	Healing Magic Effect
 吸収回復	Absorption Recovery-
 毒耐性	Poison Resistance
 命王魔術	Life King Magic
 魔術の天才	Genius of Magic
 耐久力増強	Augmented Stamina
-精力増強	Enhanced Vigor
+精力	Vigor
 炎熱操作	Heat Manipulation
 炎無効	Flame Nullification
 射出	Projectile Fire
@@ -353,7 +348,7 @@
 魔王侵食度	Demon King Encroachment
 ノーライフキラー	No-Life Killer
 全能力値	All Ability Values
-冥王魔術	Dark King Magic
+冥王魔術	Nether King Magic
 毒分泌(爪牙舌)	Venom Secretion (Claws, Fangs, Tongue)
 身体伸縮(舌)	Body Expansion (Tongue)
 手術	Surgery
@@ -416,8 +411,7 @@
 光・生命属性無効	Light-Life Attribute Nullification
 装植術	Plant Binding Technique
 無手時攻撃力強化	Strengthened Attack Power while Unarmed
-龍棍術	Dragon Club Technique
-魔棍限界突破	Magic Club
+龍棍術	Dragon God Club Technique
 御使い降魔	Demon Ascend
 の加護	's Divine Protection
 ヴァンダルーの欠片	Vandalieu's Fragment
@@ -435,7 +429,7 @@
 不滅の力	Never Give Up	Amemiya
 全属性適正	All Attribute Affinity	Amemiya
 根源	Root
-群隊	Coordination
+群隊	Group Coordination
 怨投術	Grudge Throw Arts
 身体無限伸縮	Infinite Body Expansion and Contraction
 虚界神魔術	Hollow Boundary God Magic
@@ -460,7 +454,7 @@
 魂格滅闘術	Soul Breaking Arts
 統血	Bloodrule
 魔糸精製	Magic Thread Refining
-従群超強化	Mass Strengthen Adherents
+従群	Dependent Group
 同時多発動	Simultaneous Multi-cast
 魔力常時回復	Constant Mana Recovery
 高速航行	High-Speed Navigation
@@ -571,7 +565,7 @@
 体毛操作	Fur Manipulation
 突き	thrust
 霊体変化	Spirit Form Transformation	Thunder
-神格	God Authority
+神格	Divinity
 疑似	Pseudo-
 サバイバル	Survival
 人命救助	lifesaving
@@ -589,7 +583,7 @@
 生命浸蝕	Imperfect Life	Hihiryushukaka, Integrated into Mutagenesis
 生命歪曲	Life Deception	Hihiryushukaka, Integrated into Mutagenesis
 生命強制付与	Life Force Endowment	Hihiryushukaka, Intregrated into Dark King Magic
-魂魄束縛	Hun & Po Restraint	Hihiryushukaka, Intregrated into Dark King Magic
+魂魄束縛	Soul Restraint	Hihiryushukaka, Intregrated into Dark King Magic
 創造アンデッド支配	Setup Undead Domination	Hihiryushukaka, Intregrated into Dark King Magic
 輪廻模倣	Fake Reincarnation	Hihiryushukaka, Intregrated into Dark King Magic
 従僕創造	Lackey Creation	Hihiryushukaka, Intregrated into Dark King Magic
@@ -677,7 +671,7 @@
 空怪	Space Mystery
 笑顔	Smiling Face
 弓姫術	Bow Princess Technique
-調理	Cooking2
+調理	Cooking
 運搬	transportation
 激盾術	Inciting Shield Technique
 獄剣術	Boundary Sword Technique
