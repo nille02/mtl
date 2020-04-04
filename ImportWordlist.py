@@ -34,31 +34,36 @@ def clean_filename(filename, replace=' '):
     return cleaned_filename[:char_limit]
 
 
-OUTPUT_DIRECTORY = os.path.join(os.getcwd(), 'Imported Wordlist')
+def main():
+    OUTPUT_DIRECTORY = os.path.join(os.getcwd(), 'data/wordlist/Death Mage Raw')
 
-NOVEL_URL = "http://mtl.maikoengelke.com/api/novel"  # Returns full novel List
-DICTIONARYS = "http://mtl.maikoengelke.com/api/dictionary/"  # Return the List of dictionary's for the given Novel
-CATEGORY = "http://mtl.maikoengelke.com/api/category/"  # Return the category's of the selected dictionary
-KEYWORDS = "http://mtl.maikoengelke.com/api/entry/"  # Returns the Keyword list of the selected category id
+    NOVEL_URL = "http://mtl.maikoengelke.com/api/novel"  # Returns full novel List
+    DICTIONARYS = "http://mtl.maikoengelke.com/api/dictionary/"  # Return the List of dictionary's for the given Novel
+    CATEGORY = "http://mtl.maikoengelke.com/api/category/"  # Return the category's of the selected dictionary
+    KEYWORDS = "http://mtl.maikoengelke.com/api/entry/"  # Returns the Keyword list of the selected category id
 
-r = requests.get(url=CATEGORY + '1')  # We request MBAs dictionary for Death Mage
-categorys = r.json()
+    r = requests.get(url=CATEGORY + '1')  # We request MBAs dictionary for Death Mage
+    categorys = r.json()
 
-for category in categorys:
-    request_wordlist = requests.get(url=KEYWORDS+str(category['id']))   # Returns the current Wordlist from the current category
-    print('Saving: ' + category['name'])
-    category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowed in filenames
-    output = os.path.join(OUTPUT_DIRECTORY, ('MBA-' + category['name'] + '.tsv'))
-    with open(output, 'w+', encoding='utf-8') as writer:
-        for keyword in request_wordlist.json():
+    for category in categorys:
+        request_wordlist = requests.get(url=KEYWORDS+str(category['id']))   # Returns the current Wordlist from the current category
+        print('Saving: ' + category['name'])
+        category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowed in filenames
+        output = os.path.join(OUTPUT_DIRECTORY, ('MBA-' + category['name'] + '.tsv'))
+        with open(output, 'w+', encoding='utf-8') as writer:
+            for keyword in request_wordlist.json():
 
-            if ignore_keyword(keyword['entryOriginal'], keyword['entryTranslation']):  # Exclude Blacklist
-                continue
-            if keyword['entryOriginal'] == '-' and keyword['entryTranslation'] == '-':  # If we find just a '-', its a deleted Keyword
-                continue
-            if keyword['description'] is None:
-                line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\n"
-            else:
-                line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\t{keyword['description']}\n"
+                if ignore_keyword(keyword['entryOriginal'], keyword['entryTranslation']):  # Exclude Blacklist
+                    continue
+                if keyword['entryOriginal'] == '-' and keyword['entryTranslation'] == '-':  # If we find just a '-', its a deleted Keyword
+                    continue
+                if keyword['description'] is None:
+                    line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\n"
+                else:
+                    line = f"{keyword['entryOriginal']}\t{keyword['entryTranslation']}\t{keyword['description']}\n"
 
-            writer.writelines(line)
+                writer.writelines(line)
+
+
+if __name__ == "__main__":
+    main()

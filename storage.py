@@ -19,7 +19,7 @@ class Storage:
     RAW_MATCH = re.compile(r"^(\d+)[-]([a-zA-Z\d\s_-]+)[-](.+)[.]([a-zA-Z0-9]{5,40})(.txt)?")
     BLOCK_MATCH = re.compile(r"^(\d+)[-](\d+)[.]([a-zA-Z\d\s_-]+)(.html)")
 
-    def __init__(self, rawrootpath, rawoutputpath, wordlistpath=''):
+    def __init__(self, rawrootpath: str, rawoutputpath: str, wordlistpath=''):
         self.RAW_ROOT_PATH = rawrootpath
         self.RAW_OUTPUT_PATH = rawoutputpath
         self.WORD_LIST_PATH = wordlistpath
@@ -70,7 +70,7 @@ class Storage:
         for novel in novels:
             self.store_raw_novel(novel)
 
-    def store_novel_as_block(self, novel: Novel, blocksize: int, generate_index=False):
+    def store_novel_as_block(self, novel: Novel, blocksize: int, generate_index: bool = False):
 
         first_id = None
         last_id = None
@@ -137,7 +137,7 @@ class Storage:
                 toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
                            f"<a href='index.html'>TOC</a> | <a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
             if novel.name == "Death Mage Raw":
-                toc_footer += "<div>Special thanks to MBA, Tamachii and the Users from the LBN #spoilers Discord. " \
+                toc_footer += "<div>Special thanks to MBA and the Users from the LBN #spoilers Discord. " \
                               "Without them this would not be possible.</div>"
             toc = toc_header + toc_line + toc_footer
             with open(os.path.join(novel_output_path, write_queue[i]['filename']), 'w+', encoding='utf-8') as writer:
@@ -164,12 +164,12 @@ class Storage:
         for novel in novels:
             self.store_novel_as_block(novel, blocksize)
 
-    def open_wordlist(self, novel_name):
+    def open_wordlist(self, novel_name: str) -> List:
 
         wordlistpath = os.path.join(self.WORD_LIST_PATH, novel_name)
 
         if not os.path.exists(wordlistpath):
-            return None
+            return []
         replacements = []
         for file in natsort.natsorted(glob.glob(wordlistpath + "/*.tsv", recursive=False)):
             with open(file, 'r', encoding='utf-8') as reader:

@@ -1,12 +1,14 @@
 import os
-import storage
+from storage import Storage
+from novel import Chapter
 import novel
 import re
 import lxml.html
 
 
-def convert_death_mage_chapter_title(chapter: novel.Chapter) -> novel.Chapter:
+def convert_death_mage_chapter_title(chapter: Chapter) -> Chapter:
     content = lxml.html.fromstring(chapter.data)
+    hit = False
     for headline in content.xpath("//p[contains(@class,'novel_subtitle')]"):
         text = headline.text.split("　", 1)
         if text[0].startswith("第"):
@@ -15,20 +17,49 @@ def convert_death_mage_chapter_title(chapter: novel.Chapter) -> novel.Chapter:
             if text[0] == "序章":
                 text[0] = "Prologue:"
                 chapter.chapter_number = text[0]
+                hit = True
             if text[0].startswith("閑話"):
                 side_chapter = text[0].split("閑話", 1)
                 if len(side_chapter) == 2:
                     if side_chapter[1] != "":
                         text[0] = "Side Chapter {number}: ".format(number=convert_ja_numbers_to_latin(side_chapter[1]))
                         chapter.chapter_number = text[0]
+                        hit = True
                     else:
                         text[0] = "Side Chapter:"
                         chapter.chapter_number = text[0]
+                        hit = True
             if text[0].endswith("話"):
                 chapter_number = text[0].replace("話", "")
                 text[0] = "Chapter {number}: ".format(number=str(convert_written_ja_number_to_latin(chapter_number)))
                 chapter.chapter_number = text[0]
+                hit = True
         headline.text = " ".join(text)
+
+        if hit == False:
+            # This is for mom Please Do not come for adventure
+            CHAPTER_MATCH = re.compile(r"^(?P<chapter>\d+)\.(?P<all>((?P<begin>邪竜|息子|母の一日|エルフ)?、?)(?P<rest>.+))")
+            match = CHAPTER_MATCH.match(headline.text)
+            if match:
+                hit = True
+                groups = match.groupdict()
+                text = f"Chapter {groups['chapter']}: "
+                if groups.get('begin', None) is not None:
+                    if groups['begin'] == "邪竜":
+                        text += f"Evil Dragon, {groups['rest']}"
+                    elif groups['begin'] == "息子":
+                        text += f"Son, {groups['rest']}"
+                    elif groups['begin'] == "母の一日":
+                        text += f"Mother's day, {groups['rest']}"
+                    elif groups['begin'] == "エルフ":
+                        text += f"Elf, {groups['rest']}"
+                    else:
+                        text += f"{groups['all']}"
+                    pass
+                else:
+                    text += f"{groups['all']}"
+                chapter.chapter_number = f"Chapter {groups['chapter']}"
+                headline.text = text
 
     chapter.data = lxml.html.tostring(content, encoding='unicode')
     return chapter
@@ -134,42 +165,50 @@ def return_double_ja_sign_to_number(text: str) -> int:
     return number
 
 
-input_path = "E:\\Niels\\Documents\\GitHub\\urlchanges\\SyosetuIndex"
+def main():
+    input_path = "E:\\Niels\\Documents\\GitHub\\urlchanges\\SyosetuIndex"
 
-path = input_path
+    path = input_path
 
-output = os.path.join(os.getcwd(), 'data/output/')
-wordlist = os.path.join(os.getcwd(), 'data/wordlist/')
+    output = os.path.join(os.getcwd(), 'data/output/')
+    wordlist = os.path.join(os.getcwd(), 'data/wordlist/')
 
-storage = storage.Storage(path, output, wordlist)
+    storage = Storage(path, output, wordlist)
 
-if True:
-    print("Death Mage Raw")
-    novel = storage.get_raw_novel('Death Mage Raw')
+    if True:
+        print("Death Mage Raw")
+        novel = storage.get_raw_novel('Death Mage Raw')
 
-    for dm_chapters in novel.chapters:
-        dm_chapters = convert_death_mage_chapter_title(dm_chapters)
+        for dm_chapters in novel.chapters:
+            dm_chapters = convert_death_mage_chapter_title(dm_chapters)
 
-    storage.store_novel_as_block(novel, 1, True)
-    # storage.store_novel_as_block(novel, 10000000000)
+        storage.store_novel_as_block(novel, 1, True)
+        # storage.store_novel_as_block(novel, 10000000000)
 
-if False:
-    print("Immortal Adventurer")
-    novel2 = storage.get_raw_novel('Immortal Adventurer')
-    storage.store_novel_as_block(novel2, 1, True)
-    # storage.store_novel_as_block(novel2, 1000000000)
+    if False:
+        print("Immortal Adventurer")
+        novel2 = storage.get_raw_novel('Immortal Adventurer')
+        storage.store_novel_as_block(novel2, 1, True)
+        # storage.store_novel_as_block(novel2, 1000000000, False)
 
-if False:
-    print("mom Please Do not come for adventure Raw")
-    novel2 = storage.get_raw_novel('mom Please Do not come for adventure Raw')
-    storage.store_novel_as_block(novel2, 1, True)
-    storage.store_novel_as_block(novel2, 1000000000)
+    if False:
+        print("mom Please Do not come for adventure Raw")
+        novel2 = storage.get_raw_novel('mom Please Do not come for adventure Raw')
+        for mom_chapter in novel2.chapters:
+            mom_chapter = convert_death_mage_chapter_title(mom_chapter)
+            pass
+        storage.store_novel_as_block(novel2, 1, True)
+        # storage.store_novel_as_block(novel2, 1000000000, False)
 
-if False:
-    print("Tondemo Skill de Isekai Hourou Meshi Raw")
-    novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
-    for tondemo_chapter in novel3.chapters:
-        tondemo_chapter = convert_death_mage_chapter_title(tondemo_chapter)
-        pass
-    # storage.store_novel_as_block(novel3, 1000000000)
-    storage.store_novel_as_block(novel3, 1, True)
+    if False:
+        print("Tondemo Skill de Isekai Hourou Meshi Raw")
+        novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
+        for tondemo_chapter in novel3.chapters:
+            tondemo_chapter = convert_death_mage_chapter_title(tondemo_chapter)
+            pass
+        # storage.store_novel_as_block(novel3, 1000000000, False)
+        storage.store_novel_as_block(novel3, 1, True)
+
+
+if __name__ == "__main__":
+    main()

@@ -8,5 +8,5 @@ setup(
     license='',
     author='Niels',
     author_email='',
-    description='', install_requires=['requests', 'lxml']
+    description='', install_requires=['requests', 'lxml', 'natsort']
 )
