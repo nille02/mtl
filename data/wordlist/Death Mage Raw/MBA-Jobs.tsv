@@ -143,7 +143,7 @@
 混導士	Chaos Guider
 滅導士	Destruction Guider
 創導士	Creation Guider
-冥導士	Dark Guider
+冥導士	Nether Guider
 魔導士	Demon Guider
 魔砲士	Magic Cannoneer
 不死殺し	Immortality Slayer
@@ -157,7 +157,7 @@
 魔王使い	Demon King User
 迷宮創造者	Labyrinth Creator
 ダンジョンマスター	Dungeon Master
-冥医	Dark Healer
+冥医	Nether Healer
 鞭舌禍	Whip Tongue Calamity
 怨狂士	Vengeful Berserker
 死霊魔術師	Dead Spirit Mage
@@ -224,8 +224,6 @@
 荒御魂	Aramitama
 魔杖創造者	Magic Wand Creator
 神霊魔術師	Divine Spirit Mage
-ユリアーナ	Juliana
-ユリアーナ・アルクレム	Juliana Alcrem
 変身装具士	Transformable Gear Warrior
 念動戦士	Psychic Warrior
 念動力士	Psychic Power User
@@ -295,7 +293,7 @@
 冥獣闘士	Nether Beast Fighter	Miles
 獣闘士	Beast Fighter	Miles
 闇夜闘士	Dark Night Fighter
-変化闘士	Transformation Warrior
+変化闘士	Transforming Warrior
 魂喰士	Soul Eater
 神喰者	God Eater
 冥獣使い	Nether Beast User
@@ -313,8 +311,8 @@
 槍士	Spearman
 ボクサー	Boxer
 ベビーシッター	babysitter
-変身剣姫	Transformation Sword Princess
-変身クノイチ	Transformation Kunoichi
+変身剣姫	Transforming Sword Princess
+変身クノイチ	Transforming Kunoichi
 魔聖女	Magic Saint	Demon Saint
 水精使い	Water-Spirit User
 触腕士	Tentacle Warrior
@@ -427,3 +425,5 @@
 変身淑女	Transforming Lady
 大魔法少女	Great Magical Girl
 女騎士	Dame	Female Knight
+変身執事	Transforming Butler
+枢機卿	Cardinal
