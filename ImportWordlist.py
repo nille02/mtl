@@ -9,7 +9,7 @@ import unicodedata
 def ignore_keyword(entry: str, translation: str):  # We ignore some Keywords that helps to understand who is talking but translation gets more troubblesome with them.
     blacklist = ["WARERA", "WAREWARE", "WARE", "WATAKUSHI", "SESSHA", "BOKU", "WASHI", "ATASHI", "WATASHI",
                  "nanoyo", "degozaru", "degozaruna", "degozaruyo", "degozaruka", "nojana", "jarou", "nojazo", "nojaga",
-                 "desuka", "nojarou", "noja", "nojayo", "Boya", "Umu", "ja！", "joo", "juu", "ussu", "ssu"
+                 "desuka", "nojarou", "noja", "nojayo", "Boya", "Umu", "ja！", "joo", "juu", "ussu", "ssu", "oneself"
                  ]
     for word in blacklist:
         if word == entry or word == translation:
@@ -27,7 +27,7 @@ def clean_filename(filename, replace=' '):
     # keep only valid ascii chars
     cleaned_filename = unicodedata.normalize('NFKD', filename)
 
-    # remove blacklistet chars
+    # remove blacklisted chars
     cleaned_filename = ''.join(c for c in cleaned_filename if c not in blacklist)
     if len(cleaned_filename) > char_limit:
         print(f"Warning, filename truncated because it was over {char_limit}. Filenames may no longer be unique")
@@ -43,9 +43,9 @@ def main():
     KEYWORDS = "http://mtl.maikoengelke.com/api/entry/"  # Returns the Keyword list of the selected category id
 
     r = requests.get(url=CATEGORY + '1')  # We request MBAs dictionary for Death Mage
-    categorys = r.json()
+    categories = r.json()
 
-    for category in categorys:
+    for category in categories:
         request_wordlist = requests.get(url=KEYWORDS+str(category['id']))   # Returns the current Wordlist from the current category
         print('Saving: ' + category['name'])
         category['name'] = clean_filename(category['name'])                 # Replace Chars that are not allowed in filenames

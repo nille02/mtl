@@ -3,20 +3,26 @@ import html
 import re
 import csv
 from typing import List
+from typing import Dict
 
 
 class Novel:
-
     chapters: List
     name: str
+    volumes: dict
 
-    def __init__(self, name, chapters):
+    def __init__(self, name: str, chapters: List, volumes: dict = None):
+        if volumes is None:
+            volumes = {}
         self.name = name
         self.chapters = chapters
+        self.volumes = volumes
+
+    def get_volumes(self) -> dict:
+        return self.volumes
 
 
 class Chapter:
-
     chapterid: int
     name: str
     novelname: str
@@ -24,7 +30,8 @@ class Chapter:
     savename: str
     chapter_number: str
 
-    def __init__(self, chapterid, novelname, name, data, savename, wordlist=None, chapter_number=""):
+    def __init__(self, chapterid: int, novelname: str, name: str, data: str, savename,
+                 wordlist=None, chapter_number=""):
         self.chapterid = chapterid
         self.name = name
         self.novelname = novelname
@@ -44,7 +51,8 @@ class Chapter:
             self.word_list = self.__sort(self.word_list, reverse=True)
             for word in self.word_list:
                 if len(word) >= 2:
-                    data = data.replace(word[0], '[['+word[1]+']]')  # We add [[ and ]] before and after each keyword, later we replace them or delete them.
+                    data = data.replace(word[0], '[[' + word[
+                        1] + ']]')  # We add [[ and ]] before and after each keyword, later we replace them or delete them.
                 else:
                     print("Format Error:" + str(word))
 
@@ -64,7 +72,7 @@ class Chapter:
             element.tag = "h2"
             element.attrib['style'] = "text-align: center;"
 
-        html.get_element_by_id("novel_color").set("id", self.chapterid)
+        html.get_element_by_id("novel_color").set("id", str(self.chapterid))
 
         return lxml.html.tostring(html, encoding='unicode')
 
@@ -75,4 +83,4 @@ class Chapter:
         # reverse = None (Sorts in Ascending order)
         # key is set to sort using first element of
         # sublist lambda has been used
-        return (sorted(sub_li, key=lambda x: len(x[0]), reverse=reverse))
+        return sorted(sub_li, key=lambda x: len(x[0]), reverse=reverse)

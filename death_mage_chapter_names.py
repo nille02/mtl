@@ -1,6 +1,7 @@
 import os
 from storage import Storage
 from novel import Chapter
+from novel import Novel
 import novel
 import re
 import lxml.html
@@ -166,9 +167,7 @@ def return_double_ja_sign_to_number(text: str) -> int:
 
 
 def main():
-    input_path = "E:\\Niels\\Documents\\GitHub\\urlchanges\\SyosetuIndex"
-
-    path = input_path
+    path: str = "E:\\Niels\\Documents\\GitHub\\urlchanges\\SyosetuIndex"
 
     output = os.path.join(os.getcwd(), 'data/output/')
     wordlist = os.path.join(os.getcwd(), 'data/wordlist/')
@@ -200,13 +199,13 @@ def main():
         storage.store_novel_as_block(novel2, 1, True)
         # storage.store_novel_as_block(novel2, 1000000000, False)
 
-    if False:
+    if True:
         print("Tondemo Skill de Isekai Hourou Meshi Raw")
         novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
         for tondemo_chapter in novel3.chapters:
             tondemo_chapter = convert_death_mage_chapter_title(tondemo_chapter)
             pass
-        # storage.store_novel_as_block(novel3, 1000000000, False)
+        #storage.store_novel_as_block(novel3, 1000000000, False)
         storage.store_novel_as_block(novel3, 1, True)
 
 

@@ -16,7 +16,7 @@ class Storage:
 
     RAW_ROOT_PATH: str
     RAW_OUTPUT_PATH: str
-    RAW_MATCH = re.compile(r"^(\d+)[-]([a-zA-Z\d\s_-]+)[-](.+)[.]([a-zA-Z0-9]{5,40})(.txt)?")
+    RAW_MATCH = re.compile(r"^(\d+)[-]([a-zA-Z\d\s_-]+)[-](.+)[.]([a-zA-Z0-9]{5,40})(\.txt)?")
     BLOCK_MATCH = re.compile(r"^(\d+)[-](\d+)[.]([a-zA-Z\d\s_-]+)(.html)")
 
     def __init__(self, rawrootpath: str, rawoutputpath: str, wordlistpath=''):
@@ -38,7 +38,7 @@ class Storage:
             with open(file, 'r', encoding='utf-8') as reader:
                 data = reader.read()
 
-            chapters.append(Chapter(groups[0], name, groups[2], data, groups[1], self.open_wordlist(name)))
+            chapters.append(Chapter(int(groups[0]), name, groups[2], data, groups[1], self.open_wordlist(name)))
 
         return Novel(name, chapters)
 
@@ -68,7 +68,7 @@ class Storage:
     def store_all_raw_novel(self, novels: List[Novel]):
 
         for novel in novels:
-            self.store_raw_novel(novel)
+            self.store_novel_as_block(novel, 1, True)
 
     def store_novel_as_block(self, novel: Novel, blocksize: int, generate_index: bool = False):
 
@@ -114,7 +114,8 @@ class Storage:
                     filename = f"{first_id}-{last_id}.{chapter.savename}.html"
 
                 write_queue.append({"filename": filename,
-                                    "data": data})
+                                    "data": data,
+                                    "first_id": first_id})
                 data = ''
                 size = header_footer_size
                 first_id = None
@@ -125,20 +126,22 @@ class Storage:
         for i in range(len(write_queue)):
 
             toc_header = "\n<div id='toc' style='text-align:center'>"
-            toc_footer = "<br><a id='togoogle' target='_self' style='display:none'>To Google Translate</a></div>\n"
+            toc_footer = "<a id='togoogle' target='_self' style='display:none'>To Google Translate</a></div>\n"
+            toc_line = ""
 
-            if i == 0:
-                toc_line = f"<a href='index.html'>TOC</a> | " \
-                           f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
-            elif i == (len(write_queue) - 1):
-                toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
-                           f"<a href='index.html'>TOC</a>"
-            else:
-                toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
-                           f"<a href='index.html'>TOC</a> | <a href='{write_queue[i+1]['filename']}'>Next -&gt;</a>"
-            if novel.name == "Death Mage Raw":
-                toc_footer += "<div>Special thanks to MBA and the Users from the LBN #spoilers Discord. " \
-                              "Without them this would not be possible.</div>"
+            if generate_index:
+                if i == 0:
+                    toc_line = f"<a href='index.html'>TOC</a> | " \
+                               f"<a href='{write_queue[i+1]['filename']}'>Next -&gt;</a><br>"
+                elif i == (len(write_queue) - 1):
+                    toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
+                               f"<a href='index.html'>TOC</a><br>"
+                else:
+                    toc_line = f"<a href='{write_queue[i-1]['filename']}'>&lt;- Previous</a> | " \
+                               f"<a href='index.html'>TOC</a> | <a href='{write_queue[i+1]['filename']}'>Next -&gt;</a><br>"
+                if novel.name == "Death Mage Raw":
+                    toc_footer += "<div>Special thanks to MBA and the Users from the LBN #spoilers Discord. " \
+                                  "Without them this would not be possible.</div>"
             toc = toc_header + toc_line + toc_footer
             with open(os.path.join(novel_output_path, write_queue[i]['filename']), 'w+', encoding='utf-8') as writer:
                 write_queue[i]['data'] = header + toc + "<hr>\n" + write_queue[i]['data'] + "\n<hr>" + toc + footer
@@ -153,7 +156,7 @@ class Storage:
             for entry in write_queue:
                 name = entry['filename'].replace(".html", "")
                 name = name.strip("_")
-                index += f"<li><a href='{entry['filename']}' target='_blank'>{name}</a></li>\n"
+                index = f"<li><a href='{entry['filename']}' target='_blank'>{name}</a></li>\n" + index
 
             index = index_header + index + index_footer
             with open(os.path.join(novel_output_path, "index.html"), 'w+', encoding='utf-8') as writer:
