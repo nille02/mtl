@@ -132,13 +132,6 @@
 房中術	Love-making
 薙刀術	Naginata Technique
 無薙刀術	No-Halberd Technique
-一閃	Single Flash
-極輝一閃	Luminous Slash
-両断	Bisection
-二段突き	Double Thrust
-レムルース	Lemure
-レムルース作成	Lemure Creation
-シールドバッシュ	Shield Bash
 退廃	Degenerate
 上位スキル	Superior Skill
 剣王術	Sword King Technique
@@ -189,7 +182,7 @@
 火属性魔術	Fire-Attribute Magic
 追跡	Pursuit
 拷問	Torture
-変幻	Transformation
+変幻	Shape-Shift
 魔力使用量減少	Mana Cost Reduction
 疲労・飢餓耐性	Fatigue/Hunger Resistance
 土属性魔術	Earth-Attribute Magic
@@ -476,7 +469,7 @@
 魔力回復速度超上昇	Super Mana Recovery Rate Increase
 鑑定の魔眼	Magic Eye of Appraisal
 導き	Guidance
-龍神喰い	Dragon Eater	Pete
+龍神喰い	Dragon God Devourer	Pete
 服飾	Clothing Decoration	Silky
 スリ	Pickpocket	Silky
 精神	Mental
@@ -542,7 +535,6 @@
 罪鎖	Chain of Sins	Sinful Chains
 操糸幻殺術	Illusion Thread Technique	Bellmond
 呪刃幻糸	Cursed Phantom Threads	Bellmond
-信仰	faith
 無効	Nullification
 属性	attribute
 光属性	Light Attribute
@@ -742,3 +734,5 @@
 大地肥妖化	Ground Fertile Transformation
 転道	Change Path
 英道	Heroic Path
+殺戮超回復	Slaughter Super Healing
+不死者活性	Undead Activity
