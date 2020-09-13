@@ -5,7 +5,7 @@
 ゼルクス	Xerx
 ガレス	Garess
 リシャーレ	Rishare
-リオエン	Lioen
+ローエン	Lioen
 デルボラ	Delbora
 バシャス	Bacias
 メレベベイル	Merrebeveil
@@ -16,7 +16,6 @@
 グファドガーン	Gufardgarn
 ジャロディプス	Jyarodeeps
 ルヴェズフォル	Luvezfol
-アルダ	Alda
 ヴィダ	Vida
 アラザン	Arazan	White Great God
 ディアクメル	Diachmell	Bleck Great God
@@ -39,7 +38,7 @@
 ヒヒリュシュカカ	Hihiryushukaka
 キュラトス	Curatos
 ニルターク	Niltark
-ファーマウン	Farmoun	Far Mountain
+ファーマウン	Farmaun	Far Mountain
 ダルグゾボン	Dargzobon
 ギュバルゾー	Gyubarzo
 ダイアナ	Daiana
@@ -63,13 +62,13 @@
 闇の森の邪神	Evil God of the dark Forest
 暴邪龍神	Raging Evil Dragon God
 生命と愛の女神	Goddess of Life and Love
-生命属性の神	God of Life-Attribute
+生命属性の神	God of Life
 光と法の神	God of Light and Law
-法命神	God of Law and Life
+法命神	God of Law and Fate
 炎と破壊の戦神	War-God of Fire and Destruction
 水と知識の女神	Goddess of Water and Knowledge
 風と芸術の神	God of Wind and Art
-大地と匠の母神	Mother God of the Earth and Craftsmanship
+大地と匠の母神	Mother of the Earth and Goddess of Craftsmanship
 龍皇神	Dragon-Emperor God
 巨人神	Giant God
 獣神	Beast God
@@ -77,7 +76,7 @@
 悦命の邪神	Evil God of Joyful Life
 記録の神	God of Records
 断罪の神	God of Judgment
-狂災の悪神	Evil God of Mad Disaster
+狂災の悪神	Evil God of mad disaster
 暗海の邪神	Evil God of dark seas
 解放の悪神	Evil god of release
 呪毒の邪神	Evil God of Cursed Poison
@@ -92,10 +91,10 @@
 共食いの邪神	Evil God of Cannibalism
 外書の邪神	Evil God of Foreign Writings
 魔書の悪神	Evil god of Magic Tome
-旋風龍神	Whirlwind Dragon God
+旋風龍神	Whirlwind Dragon
 疾風の巨人	Gale Giant
 鏡像の神	God of the Reflexions
-陽炎の神	God of Heat Haze
+陽炎の神	God of Honor
 聖槍の女神	Goddess of the Holy Spear
 清水の神	God of Fresh Water
 炎踊の神	God of Fire Dance
@@ -227,7 +226,7 @@
 ジャファー	Jaffer
 マリウス	Marius
 ハープス	Harps	Meldin
-暴食の龍	Gluttony Dragon God	Bakunawa
+暴食の龍	Gluttony Dragon	Bakunawa
 馬の獣邪眼王	Horse Beast Evil Eye King	Trepamit
 トレパミト	Trepamit	Horse Beast Evil Eye King
 馬の獣王	Horse Beast King	Horse Beast Evil Eye King
@@ -239,24 +238,7 @@
 蛇の獣王	Snake Beast King
 ジュバディ	Jubadi	Evil God of Poisonous Scales
 毒鱗の邪神	Evil God of Poisonous Scales	Jubadi
-魔城の悪神	Evil God of Demon Castles
+魔城の悪神	Evil God of Magic Castles
 ミリオーネ	Millione	God of Administration
 制御の神	God of Administration	Millione
 ヴィダ派	Vida's Faction
-ラングルボザ	Rangulboza	Evil Cow Horn God
-悪角牛神	Evil Cow Horn God	Rangulboza
-御使い	Familiar Spirit
-魔王軍	Demon King Army
-神ダルー	Goddalieu
-アラディア	Aradia	Vandalieu's third daughter
-守護神	Patron God
-分霊	Spirit Clone
-聖痕	Stigmata
-リュゼマゼラ	Luzmazela	Goddess of Spring
-ギュピャレスラ	Gupyaresla	Evil God of Demon Castles
-ジグラット	Ziggurat
-猪の悪	Evil Boar	Bododo
-ボドド	Bododo	Evil Boar Beast King
-猪の獣王	Boar Beast King
-嵐雷龍神	Dragon God of Thunderstorms
-再生の女神	Goddess of Regeneration

@@ -1,5 +1,5 @@
 大英雄の運命	Great Hero’s Destiny
-超力	Super Strength
+超力	Superhuman Strength
 対劣化	Anti-Degradation
 【発酵】	【Fermentation】
 高速治癒	Rapid Healing
@@ -12,7 +12,7 @@
 繁殖	Breeding
 停撃の結界	Impact-Negating Barrier
 吸魔の結界	Magic Absorption Barrier
-状態異常耐性	Abnormal Condition Resistance
+状態異常耐性	Status Effect Resistance
 死属性耐性	Death Attribute Resistance
 魔術耐性	Magic Resistance
 蹴打	Kicking Strike
@@ -41,7 +41,7 @@
 精神汚染	Mental Corruption
 死属性魅了	Death-Attribute Charm
 死属性魅力	Death-Attribute Charm
-限界突破	-Surpass Limits-
+限界突破	Surpass Limits
 欠片限界突破	Surpass Limits: Fragments
 ゴーレム錬成	Golem Transmutation
 ゴーレム錬成士	Golem Transmuter
@@ -52,7 +52,7 @@
 詠唱破棄	Chant Revocation
 降霊	Spirit Communication
 忍び足	Silent Steps
-剣術	Sword Technique
+剣術	Swordsmanship
 無剣術	No-Sword Technique
 短剣術	Dagger Technique
 竈流短剣術	Hearth-Style Dagger Technique
@@ -64,7 +64,7 @@
 槍斧術	Halberd Technique
 生命感知	Detect Life
 生命力探知	Sense Life
-鬼火	Demon Fire
+鬼火	Light
 魔力弾	Mana Bullet
 腐敗	Decomposition
 猛毒	Deadly Poison
@@ -76,29 +76,29 @@
 霊体	Spirit Form
 霊体化	Spirit Form Transformation
 魂魄体	Soul Form
-高速飛行	High-Speed Flight
+高速飛行	Swift Flight
 命輝剣	Life Light Sword
 錬神術	God Alchemy
 危険感知	Danger Sense
 悪路走行	Rough Road Travel
 衝撃耐性	Impact Resistance
 精密駆動	Precise Driving
-高速走行	High-Speed Running
+高速走行	High-Speed Travel
 突撃	Charge
 鮮度維持	Preservation
 【灯】	[Torch]
 特殊五感	Special Five Senses
 身体能力強化	Physical Ability Enhancement
-水属性耐性	Water-Attribute Resistance
+水属性耐性	Water Element Resistance
 物理攻撃耐性	Physical Attack Resistance
 家事	Housework
-火属性耐性	Fire-Atribute Resistance
+火属性耐性	Fire Element Resistance
 石盾	Stone Shield
 石壁	Stone Wall
 無痛	Painlessness
 痛覚耐性	Pain Resistance
 麻痺毒分泌	Paralyzing Venom Secretion
-魔力回復速度上昇	Mana Recovery Rate Increase
+魔力回復速度上昇	Increased Mana Recovery Rate
 光属性魔術	Light-Attribute Magic
 風属性魔術	Wind-Attribute Magic
 無属性魔術	No-Attribute Magic
@@ -107,7 +107,7 @@
 限定的錬金術	Limited Alchemy
 状態異常	Status Effect
 状態異常無効	Status Effect Immunity
-眷属	Followers
+眷属強化	Strengthen Follower
 斧術	Axe Technique
 無斧術	No-Axe Technique
 格闘術	Unarmed Fighting Technique
@@ -132,6 +132,13 @@
 房中術	Love-making
 薙刀術	Naginata Technique
 無薙刀術	No-Halberd Technique
+一閃	Single Flash
+極輝一閃	Luminous Slash
+両断	Bisection
+二段突き	Double Thrust
+レムルース	Lemure
+レムルース作成	Lemure Creation
+シールドバッシュ	Shield Bash
 退廃	Degenerate
 上位スキル	Superior Skill
 剣王術	Sword King Technique
@@ -139,11 +146,12 @@
 魔王の欠片	Demon King Fragment
 砲術	Artillery Technique
 魔王砲術	Demon King Artillery Technique
-地球の冥神の加護	Earth’s Hell Gods’ Divine Protection
+地球の冥神の加護	Earth’s Dark Gods’ Divine Protection
+魔力増大	Mana Enlargement
 魔力自動回復	Automatic Mana Recovery
-自己	Self
+自己強化	Self-Enhancement
 猛突撃	Fierce Charge
-超強化	Super Enhanced (1)
+自己超強化	Super Self-enhancement
 同時発動	Multi-Cast
 並列思考	Parallel Thought Processing
 群体思考	Group Thought Processing
@@ -159,13 +167,14 @@
 精神耐性	Mental Resistance
 伐採	Deforestation
 解体	Dismantling
+魔斧限界突破	Surpass Limits – Magic Axe
 実体化	Materialization
 直感	Intuition
 鎧術	Armor Technique
-限界超越	-Transcend Limits-
-聖剣	Holy Sword
-魔剣	Magic Sword
-魔槍	Magic Spear
+限界超越	Transcend Limit
+聖剣限界超越	Transcend Limits – Holy Sword
+魔剣限界超越	Transcend Limits – Magic Sword
+魔槍限界超越	Transcend Limits – Magic Spear
 気配感知	Detect Presence
 日光耐性	Sunlight Resistance
 採掘	Mining
@@ -174,6 +183,7 @@
 生命属性魔術	Life-Attribute Magic
 盗む	Steal
 魔闘術	Magic Fighting Technique
+魔剣限界突破	Surpass Limits: Magic Sword
 魅了の魔眼	Charming Magic Eyes
 騎乗	Mount
 殺戮回復	Slaughter Healing
@@ -182,7 +192,8 @@
 火属性魔術	Fire-Attribute Magic
 追跡	Pursuit
 拷問	Torture
-変幻	Shape-Shift
+変幻	Transformation
+魔力増強	Augmented Mana
 魔力使用量減少	Mana Cost Reduction
 疲労・飢餓耐性	Fatigue/Hunger Resistance
 土属性魔術	Earth-Attribute Magic
@@ -194,13 +205,16 @@
 ゼルクスの加護	Xerx’s Divine Protection
 快適維持	Comfort Maintenance
 空間拡張	Space Expansion
-空中走行	Air Running
+空中走行	Air-running
 サイズ変更	Size Alteration
 槍術	Spear Technique
 無槍術	No-Spear Technique
 空間属性魔術	Space-Attribute Magic
+従属強化	Strengthen Subordinates
+生命力強化	Vitality Enlargement
 呪霊剣限界突破	Surpass Limits – Cursed Spirit Sword
 幻影変身	Illusory Transformation
+精気吸収	Drain Vitality
 炎熱無効	Heat Immunity
 超速再生	Super Rapid Regeneration
 高速再生	Rapid Regeneration
@@ -220,7 +234,7 @@
 自己再生	Self-Regeneration
 リベンジ	Revenge
 共食い	Cannibalism
-全属性耐性	All-Attribute Resistance
+全属性耐性	All Attributes Resistance
 ザッカートの試練	Trial of Zakkart
 ゲイザー	Gazer
 ペルセウス	Perseus
@@ -230,7 +244,7 @@
 下位種族支配	Inferior Race Domination
 魔道牙剣術	Demon Path Fang Sword Technique
 分霊降臨	Spirit Clone Descent
-魔鎧	Magic Armor
+魔鎧限界突破	Surpass Limits: Magic Armor
 魔道	Demon Path
 糸精製	Thread Refining
 刀術	Katana Technique
@@ -247,7 +261,7 @@
 棍術	Club Technique
 無棍術	No-Club Technique
 魔盾限界突破	Surpass Limits: Magic Shield
-筋力	Muscular Strength
+筋力強化	Enhanced Muscular Strength
 漁業	Fishing
 地属性魔術	Earth-Attribute Magic
 獣道	Beast Path
@@ -268,13 +282,13 @@
 悪食	Bad Eating
 調教	Training
 料理	Cooking	somestimes can mean dishes
-治癒効果	Healing Magic Effect
+治癒効果増大	Healing Magic Effect Enlargement
 吸収回復	Absorption Recovery-
 毒耐性	Poison Resistance
 命王魔術	Life King Magic
 魔術の天才	Genius of Magic
 耐久力増強	Augmented Stamina
-精力	Vigor
+精力増強	Enhanced Vigor
 炎熱操作	Heat Manipulation
 炎無効	Flame Nullification
 射出	Projectile Fire
@@ -304,17 +318,18 @@
 毒分泌(神経毒)	Venom Secretion (Neurotoxin)
 筋力増強	Augmented Muscular Strength
 頑健	Robust Health
-怪力	Mysterious Strength
+怪力	Superhuman Strength
 帯電	Electrify
 鞭術	Whip Technique
 骨体操作	Bone Form Manipulation
 吸収回復(骨)	Absorption Healing (Bone)
 全属性適性	All-Attributes Affinity
+生命力増大	Vitality Enlargement
 狩弓神術	Hunting God Archery
 命帝魔術	Life Emperor Magic
-精霊魔術	Spirit Magic
+精霊魔術	Spiritual Magic
 女神降臨	Goddess Descent
-カオスエルフの祖	Chaos Elf's Ancestor
+カオスエルフの祖	Chaos Elf's Founder
 神鉄骨格	Divine Metal Skeleton
 再生の魔眼	Magic Eye of Regeneration
 混沌	Chaos
@@ -324,7 +339,7 @@
 超筋肉	Super Muscle
 ヴィダの加護	Vida’s Divine Protection
 筋術	Muscle Technique
-冥魔創道誘引	Hell Demon Creator Path Enticement
+冥魔創道誘引	Dark Demon Creator Path Enticement
 群体操作	Group Manipulation
 精力超絶倫	Extreme Endless Sexual Stamina
 拳神術	God Fist Technique
@@ -335,12 +350,12 @@
 ファーマウンの加護	Farmaun’s Divine Protection
 ティアマトの加護	Tiamat’s Divine Protection
 分体	Fission
-建築	Architecture
+建築	Construction
 魔王融合	Demon King Fusion
 魔王侵食度	Demon King Encroachment
 ノーライフキラー	No-Life Killer
 全能力値	All Ability Values
-冥王魔術	Hell King Magic
+冥王魔術	Dark King Magic
 毒分泌(爪牙舌)	Venom Secretion (Claws, Fangs, Tongue)
 身体伸縮(舌)	Body Expansion (Tongue)
 手術	Surgery
@@ -403,7 +418,8 @@
 光・生命属性無効	Light-Life Attribute Nullification
 装植術	Plant Binding Technique
 無手時攻撃力強化	Strengthened Attack Power while Unarmed
-龍棍術	Dragon God Club Technique
+龍棍術	Dragon Club Technique
+魔棍限界突破	Magic Club
 御使い降魔	Demon Ascend
 の加護	's Divine Protection
 ヴァンダルーの欠片	Vandalieu's Fragment
@@ -414,6 +430,7 @@
 盾骨術	Bone Shield Technique
 鎧骨術	Bone Armor Technique
 ロージェフィフィの加護	Rojefifi’s Divine Protection
+自己超強化：従属	Super Self-Enhancement: Dependent
 炎熱精密操作	Precise Flame Heat Operation
 性能強化	Enhanced Performance	Amemiya
 幸運強化	Enhanced Luck	Amemiya
@@ -421,11 +438,11 @@
 不滅の力	Never Give Up	Amemiya
 全属性適正	All Attribute Affinity	Amemiya
 根源	Root
-群隊	Group Coordination
+群隊	Coordination
 怨投術	Grudge Throw Arts
 身体無限伸縮	Infinite Body Expansion and Contraction
 虚界神魔術	Hollow Boundary God Magic
-冥界神魔術	Hell World God Magic
+冥界神魔術	Netherworld God Magic
 命帝魔術師	Life-Emperor Mage
 魔杖限界突破	Surpass Limits Magic Staff
 生命属性の神々(ヴィダ派)の加護	Life Attribute Gods’ Divine Protection (Those allied with Vida)
@@ -440,14 +457,14 @@
 地球の神の加護	Gods of Earth's Divine Protection
 異貌多重魂魄	Soul of Multiple Different Appearances
 楽器演奏	Musical Instrument Performance
-欠片限界超越	Fragment Trascend Limits
+欠片限界超越	Trascend Limits
 装影群術	Group Shadow Binding Technique
 具現化	Realization
 魂格滅闘術	Soul Breaking Arts
 統血	Bloodrule
 魔糸精製	Magic Thread Refining
-従群	Dependent Group
-同時多発動	Simultaneous Multi-cast
+従群超強化	Mass Strengthen Adherents
+同時多発動	Simultaneous Invocation
 魔力常時回復	Constant Mana Recovery
 高速航行	High-Speed Navigation
 水中航行	Underwater Navigation
@@ -469,7 +486,7 @@
 魔力回復速度超上昇	Super Mana Recovery Rate Increase
 鑑定の魔眼	Magic Eye of Appraisal
 導き	Guidance
-龍神喰い	Dragon God Devourer	Pete
+龍神喰い	Dragon Eater	Pete
 服飾	Clothing Decoration	Silky
 スリ	Pickpocket	Silky
 精神	Mental
@@ -507,20 +524,20 @@
 土属性無効	Earth-Attribute Nullity
 従属	Dependent
 降臨	Descent
-冥魔創滅混夢道	Hell Demon Creation Destruction Mixed Dream Path
-冥魔創滅夢道	Hell Demon Creation Destruction Dream Path
-冥魔創滅道	Hell Demon Creation Destruction Path
-冥魔創道	Hell Demon Creation Path
-冥魔道	Hell Demon Path
-冥道	Nether Path
+冥魔創滅混夢道	Dark Demon Creation Destruction Mixed Dream Path
+冥魔創滅夢道	Dark Demon Creation Destruction Dream Path
+冥魔創滅道	Dark Demon Creation Destruction Path
+冥魔創道	Dark Demon Creation Path
+冥魔道	Dark Demon Path
+冥道	Dark Path
 空中	On Air
 精密操船	Precise Maneuvering
 番犬	Watchdog
-冥匠	Hell Artisan
+冥匠	Dark Artisan
 防具	Defense Equipment
 武器	Weapon Equipment
 影同化	Shadow Assimilation
-冥帝魔術	Hell Emperor Magic
+冥帝魔術	Dark Emperor Magic
 毒無効	Poison Nullification
 忠誠	Loyalty
 遊泳	Swimming
@@ -535,6 +552,7 @@
 罪鎖	Chain of Sins	Sinful Chains
 操糸幻殺術	Illusion Thread Technique	Bellmond
 呪刃幻糸	Cursed Phantom Threads	Bellmond
+信仰	faith
 無効	Nullification
 属性	attribute
 光属性	Light Attribute
@@ -549,14 +567,14 @@
 毛皮	fur	The 3 mouses
 炎熱	flaming heat	Maroll
 水氷	frozen water	Urumi
-冥銅	Hell Copper	Suruga
+冥銅	Nether Bronze	Suruga
 尻尾	tail
 前歯	front teeth
-冥獣爪闘術	Hell Beast Claws Fighting Technique	Miles
+冥獣爪闘術	Nether Beast Claws Fighting Technique	Miles
 体毛操作	Fur Manipulation
 突き	thrust
 霊体変化	Spirit Form Transformation	Thunder
-神格	Divinity
+神格	God Authority
 疑似	Pseudo-
 サバイバル	Survival
 人命救助	lifesaving
@@ -573,11 +591,11 @@
 千変闘術	Unlimited Arm Transformation Works
 生命浸蝕	Imperfect Life	Hihiryushukaka, Integrated into Mutagenesis
 生命歪曲	Life Deception	Hihiryushukaka, Integrated into Mutagenesis
-生命強制付与	Life Force Endowment	Hihiryushukaka, Intregrated into Hell King Magic
-魂魄束縛	Soul Restraint	Hihiryushukaka, Intregrated into Hell King Magic
-創造アンデッド支配	Setup Undead Domination	Hihiryushukaka, Intregrated into Hell King Magic
-輪廻模倣	Fake Reincarnation	Hihiryushukaka, Intregrated into Hell King Magic
-従僕創造	Lackey Creation	Hihiryushukaka, Intregrated into Hell King Magic
+生命強制付与	Life Force Endowment	Hihiryushukaka, Intregrated into Dark King Magic
+魂魄束縛	Hun & Po Restraint	Hihiryushukaka, Intregrated into Dark King Magic
+創造アンデッド支配	Setup Undead Domination	Hihiryushukaka, Intregrated into Dark King Magic
+輪廻模倣	Fake Reincarnation	Hihiryushukaka, Intregrated into Dark King Magic
+従僕創造	Lackey Creation	Hihiryushukaka, Intregrated into Dark King Magic
 魔素侵食	Magic Erosion	Hihiryushukaka, Integrated into Guidance
 束縛	Retraint
 魂魄	Hun & Po
@@ -662,14 +680,14 @@
 空怪	Space Mystery
 笑顔	Smiling Face
 弓姫術	Bow Princess Technique
-調理	Cooking
+調理	Cooking2
 運搬	transportation
 激盾術	Inciting Shield Technique
 獄剣術	Boundary Sword Technique
 極鎧術	Magnetic Armor Technique
 気配超感知	Super Detect Presence
 短剣殺術	Dagger Killing Technique
-気絶	fainted	Faint Presence (Skill, or verb)
+気絶	Faint Presence
 極力	Extreme Strength
 龍形態	Dragon God Form
 龍毒	Dragon God Venom
@@ -692,63 +710,4 @@
 絶空百閃	Severing Hundred Flashes
 断罪神刃術	Judgement God Sword Technique
 断罪殺術	Judgement Execution Technique
-無詠唱	Null Chanting
-従群極強化	Extreme Enhancement Followers
-極即応	Extreme Instant Response
-真・即応	True Instant Response
-神鉄裂	Divine Iron Split
-真魔王	True Demon King
-創造	Creation
-威力	Attack Power
-吸収	Absorption
-装魔界術	Demon World Binding Technique
-魔力常時超回復	Constant Mana Super Recovery
-神毒分泌	Divine Venom Secretion
-滅轟	Overpowering Burst
-創世	Genesis
-魂装滅魔神術	Soul Dressing Destruction Demon God Arts	AKA "Fuck you Armor"
-怪異術	Singularization	Over Surgery
-冥叫喚	Hell Scream
-爪牙舌	Claws, Fangs, Tongue
-髪爪舌牙	Hair, Claws, Tongue, Fangs
-真魔王砲術	Hell Demon King Artillery Technique
-群在	Existence Cluster
-群魂	Soul Cluster
-陰道	Yin Path
-阿頼耶識	Alaya-Vijnana
-誘因	Enticement
-魂魄侵食	Soul Encroachment
-迷宮支配	Labyrinth Dominator
-死糸操術	Death Thread Reeling Technique
-超吸収	Super Absorption
-精気	Energy
-舞土魔術	Dancing Earth Magic
-詩水魔術	Lyrical Water Magic
-真剣王術	True Sword King Technique
-嗅覚	Sense of smell
-甲鉄	iron armor
-：夫	：husband
-亜神食	Demi-god Food
-双本体	Twin Body
-樹皮枝根	tree bark, branches, root
-大地肥妖化	Ground Fertile Transformation
-転道	Change Path
-英道	Heroic Path
-殺戮超回復	Slaughter Super Healing
-不死者活性	Undead Activity
-妃盾術	Queen Shield Technique
-時騎魔術	Time Knight Magic
-絶気	Trace Severance
-霊道	Spirit Path
-導く	Guiding
-神経毒	neurotoxin
-百甲術	Hundred Armor Technique
-主命	Master's orders
-超回復	Super Healing
-大回復	Great Healing
-獅死闘術	Death Lion Fighting Technique
-霊盾術	Spirit Shield Technique
-乾燥	Drying
-保護色	Crypsis
-空中歩行	Aerial Movement
-水泳	Swimming
+英霊神降臨	Heroic God Descent

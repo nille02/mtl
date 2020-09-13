@@ -32,7 +32,11 @@ def convert_death_mage_chapter_title(chapter: Chapter) -> Chapter:
                         hit = True
             if text[0].endswith("話"):
                 chapter_number = text[0].replace("話", "")
-                text[0] = "Chapter {number}: ".format(number=str(convert_written_ja_number_to_latin(chapter_number)))
+                number = convert_written_ja_number_to_latin(chapter_number)
+                if number == 0:
+                    number = convert_ja_numbers_to_latin(chapter_number)
+
+                text[0] = "Chapter {number}: ".format(number=str(number))
                 chapter.chapter_number = text[0]
                 hit = True
         headline.text = " ".join(text)
@@ -199,14 +203,32 @@ def main():
         storage.store_novel_as_block(novel2, 1, True)
         # storage.store_novel_as_block(novel2, 1000000000, False)
 
-    if True:
+    if False:
         print("Tondemo Skill de Isekai Hourou Meshi Raw")
         novel3 = storage.get_raw_novel('Tondemo Skill de Isekai Hourou Meshi Raw')
         for tondemo_chapter in novel3.chapters:
             tondemo_chapter = convert_death_mage_chapter_title(tondemo_chapter)
             pass
-        #storage.store_novel_as_block(novel3, 1000000000, False)
+        # storage.store_novel_as_block(novel3, 1000000000, False)
         storage.store_novel_as_block(novel3, 1, True)
+
+    if True:
+        print("Welcome to Japan Miss Elf Raw")
+        novel4 = storage.get_raw_novel('Welcome to Japan Miss Elf Raw')
+        for elf_chapter in novel4.chapters:
+            elf_chapter = convert_death_mage_chapter_title(elf_chapter)
+            pass
+        # storage.store_novel_as_block(novel4, 1000000000, False)
+        storage.store_novel_as_block(novel4, 1, True)
+
+    if False:
+        print("Clearing an Isekai with the Zero-Believers Goddess Raw")
+        novel5 = storage.get_raw_novel('Clearing an Isekai with the Zero-Believers Goddess Raw')
+        for zero_believe_chapter in novel5.chapters:
+            zero_believe_chapter = convert_death_mage_chapter_title(zero_believe_chapter)
+            pass
+        #  storage.store_novel_as_block(novel5, 1000000000, False)
+        storage.store_novel_as_block(novel5, 1, True)
 
 
 if __name__ == "__main__":

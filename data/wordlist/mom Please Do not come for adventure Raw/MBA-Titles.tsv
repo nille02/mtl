@@ -12,6 +12,7 @@
 轟炎の騎士	Knight of Flames
 慧眼の騎士	Knight of the Insight
 暴虐の嵐	Storm of Tyranny
+ファゾン公爵	Duke Farzon
 蒼炎剣	Blue-flame Sword
 五色の刃	Five-colored blades
 魔王	Demon King
@@ -62,7 +63,7 @@
 爪牙不要	Not Needing Claws or Fangs
 不撓不屈	Unyielding
 謎のバーテンダー	Mysterious Bartender
-魔大陸生還者	Demon Continent Survivor
+魔大陸生還者	Dark Continent Survivor
 貴族殺し	Noble Slayer
 暴虐王	King of Tyranny
 ドラゴンスレイヤー	Dragon Slayer
@@ -102,10 +103,10 @@
 聖母殺し	Holy Mother Killer
 伝道者	Evangelist
 大魔王	Great Demon King
-歓楽街の真の支配者	True Ruler of the Red-Light District
+歓楽街の真の支配者	True Ruler of the Entertainment District
 天才テイマー	Genius Tamer
 屋台王	King of the Stalls
-龍帝	Dragon God Emperor
+龍帝	Dragon Emperor
 黒血帝	Black Blood Emperor
 変身装具の守護聖人	Patron Saint of Transforming Equipment
 雷炎の魔術師	Thunder Fire Mage	Fitun's Party
@@ -122,17 +123,18 @@
 王殺し	King Slayer	Sleygar
 コンサート場	Concert Venue
 英雄神	Heroic God
-龍姫	Dragon God Princess
+龍姫	Dragon Princess
 巨人断ち	Giant Bisector	Basdia's title in Moksi
 お姫様	Ohime-sama	Princess, Elizabeth
 庶子	Illegitimate Child	Elizabeth
 男爵	Baron
 パトロン	patron
 ハート戦士団	[Heart Warriors]	The team
-崩山の騎士	Knight of the Crumbled Mountain	-
+竜帝	Dragon Emperor	Van
 邪砕十五剣	Fifteen Evil-Breaking Swords
 姫騎士	Princess Knight
 牛姫	Cow Princess
+将軍	Shogun
 部隊長	Commander
 マスコット	Mascot
 名も無き英雄達	Nameless Heroes	Legion
@@ -154,13 +156,13 @@
 魔王の友人	Demon King's Friend
 転生者	Reincarnator
 死斧王	Death Axe King
-屍食鬼大将軍	Great General Ghoul Demon	?
+屍食鬼大将軍	Great General Corpse Eater	?
 魔杖の君	Owner of the Magical Staff	?
 変身鬼姫	Transforming Demon Princess
 元祖魔法少女	Mahou Shoujo Originator
 変身斧人	Transforming Axewoman
 旧スキュラ自治区の死神	Reaper of the Former Scylla Autonomous Territory
-真なる巨人殺し	True Giant Slayer
+真なる巨人殺し	Titan Slayer
 鱗王	Scale King	Fish Scales
 絶望の船	Ship of Despair
 鉄猫	Iron Cat
@@ -197,7 +199,7 @@
 千刃	Thousand Blades	Valdiria
 女伯爵	countess	Female Earl
 死海四船長	Four Captains of the Dead Sea
-暗黒の聖女	Saintess of Darkness	Dediria
+暗黒の聖女	Saint of Darkness	Dediria
 斬影	Phantom Killer	Leonardo
 白輝拳	White Radiant Fist
 紫燐杖	Purple Phosphorus Staff
@@ -261,21 +263,3 @@
 ヴィダの仇敵	Vida's Enemy
 灰刃	Ash Blade
 英雄神を解放せし者達	Heroic God Liberator
-魔王殺し	Demon King Slayer
-外務卿	Minister of Foreign Affairs
-財務卿	Finance Minister
-軍務卿	Military Minister
-皇帝	Emperor
-背後邪神	Evil God in the back
-魔皇帝の別荘	Magic Emperor's Villa
-女公爵	Duchess
-義父	Stepfather
-英雄姫	Heroes' Princess
-後継者	Successor
-ベルウッドの後継者	Bellwood's Successor
-候補	Candidate
-自称人間	Self-Proclaimed Human
-神の拳を受けた者	The One who received God's Fist
-大将	General
-屋台玉子	Round one of the Food Stall
-屍食	Ghouls

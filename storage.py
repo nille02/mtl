@@ -75,7 +75,7 @@ class Storage:
         first_id = None
         last_id = None
         data = ''
-        header = f"<!DOCTYPE html>\n<html>\n<head>\n<title>{novel.name} One Page</title>\n<meta charset=\"utf-8\"/>\n" \
+        header = f"<!DOCTYPE html>\n<html>\n<head>\n<title>{novel.name}</title>\n<meta charset=\"utf-8\"/>\n" \
             f"<meta name=\"viewport\" content=\"width=device-width; initial-scale=1; maximum-scale=1\">\n" \
             f"<link rel=\"stylesheet\" href=\"../styles.css\">\n</head>\n<body>"
         footer = "\n<script language='javascript' type='text/javascript' src='../page.js'></script>\n</body>\n</html>"
@@ -144,7 +144,7 @@ class Storage:
                                   "Without them this would not be possible.</div>"
             toc = toc_header + toc_line + toc_footer
             with open(os.path.join(novel_output_path, write_queue[i]['filename']), 'w+', encoding='utf-8') as writer:
-                write_queue[i]['data'] = header + toc + "<hr>\n" + write_queue[i]['data'] + "\n<hr>" + toc + footer
+                write_queue[i]['data'] = header.replace("<html>", "<html lang=\"ja\">") + toc + "<hr>\n" + write_queue[i]['data'] + "\n<hr>" + toc + footer
                 writer.write(write_queue[i]['data'])
 
         # Generate Index

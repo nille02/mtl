@@ -2,16 +2,24 @@
 ツヨシ	Tsuyoshi
 ツヨシさん	Tsuyoshi-san
 ムコーダ	Mukouda
+ムコーダ様	Mukouda-sama
 ムコーダさん	Mukouda-san
+ムコーダのお兄ちゃん	Mukouda-onii-chan
+お兄さん	Onii-san
 巻き込まれた異世界人	Victim from Another World
 料理人	Cook
 冒険者	Adventurer
+冒険者ギルド	Adventurer Guild
+冒険者パーティー	Adventurer Party
+冒険者ムコーダ様	Adventurer Mukouda-sama
 冒険者さん	Adventurer-san
 冒険者ギルドギルドマスター	Adventurer Guild Master
+商人ギルド	Merchant Guild
 鑑定	Appraisal
 鑑定さん	Appraisal-san
 アイテムボックス	Item Box
 ネットスーパー	Online Supermarket
+<ruby><rb>ネットスーパー</rb><rp>(</rp><rt>異世界</rt><rp>)</rp></ruby>	Online Supermarket of a different World
 斉藤櫂斗	Saitou Kaito
 櫂斗	Kaito
 斉藤	Saitou
@@ -47,6 +55,7 @@
 食パン	Bread loaf
 従魔	Familiar
 契約魔獣	Contracted Magic Beast
+<ruby><rb>契約魔獣</rb><rp>(</rp><rt>ペット</rt><rp>)</rp></ruby>	Contracted Magic Beast
 契約魔獣フェンリル	Contracted Magic Beast Fenrir
 フェンリル	Fenrir
 スライム	Slime
@@ -74,13 +83,19 @@
 魔力消費軽減	Magic Power Consumption Reduction
 戦闘強化	Battle Enhancement
 ニンリル	Ninrir
+ニンリル様	Ninrir-sama
 ニンリルちゃん	Ninrir-chan
 ルカちゃん	Ruka-chan
+ルカ様	Ruka-sama
 ヴァハグン	Vulcan
+ヴァハグン様	Vulcan-sama
 キシャール	Kishar
+キシャール様	Kishar-sama
 アグニちゃん	Agni-chan
 アグニ	Agni
+アグニ様	Agni-sama
 デミウルゴス	Demiurg
+デミウルゴス様	Demiurg-sama
 スイちゃん	Sui-chan
 ドラちゃん	Dora-chan
 ドラち	Dora
@@ -88,8 +103,8 @@
 ピクシードラゴン	Pixie Dragon
 ゴン爺	Gonji
 古竜の息吹	Ancient Dragon Breath
-ドラゴンブレス	Dragon Blessing
-ドラゴンブレス極	Dragon Blessing Extreme
+ドラゴンブレス	Dragon Breath
+ドラゴンブレス極	Dragon Breath Extreme
 地竜	Earth Dragon
 アースドラゴン	Earth Dragon
 エンシェントドラゴン	Ancient Dragon
@@ -104,7 +119,9 @@
 回復薬生成	Potion Creation
 鍛冶	Smithing
 ルサールカ	Rusalka
+ルサールカ様	Rusalka-sama
 ヘファイストス	Hephaestus
+ヘファイストス様	Hephaestus-sama
 完全防御	Perfect Defence
 獲得経験値倍化	Double Experience Points
 キアユ草	Kiayu Grass
@@ -186,6 +203,10 @@
 ラーシュ	Rashu
 レナードさん	Leonard-san
 レナード	Leonard
+ジェレミア	Jeremiah
+ジェレミアさん	Jeremiah-san
+ルミール	Rumir
+ルミールさん	Rumir-san
 レナード・ヒューム	Leonard Hume
 ルイーゼ・ヴィンクラー	Luise Winkler
 アーロン・バレーラ	Aaron Barrera
@@ -205,6 +226,7 @@
 ダミアンさん	Damian-san
 ダミアン	Damian
 ミノタウロス	Minotaur
+ギガントミノタウロス	Giant Minotaur
 テンペスト	Tempest	"Adventurer Party"
 えーみなさん	Ermin-san
 えーみな	Ermin
@@ -238,12 +260,14 @@
 クレメンスさん	Clemens-san
 デニス	Dennis
 デニスさん	Dennis-san
+キラーマンティス	Killer Mantis
 ジャイアントキラーマンティス	Giant Killer Mantis
 スプリガン	Springgan
 パラライズバタフライ	Paralyze Butterfly
 ジャイアントセンチピード	Giant Centipede
 ワイルドエイプ	Wild Ape
 キラーホーネット	Killer Hornet
+キラーホーネットクィーン	Killer Hornet Queen
 ヴァースキ	Vasuki
 マンティコア	Manticore
 ギュスターブ	Gustave
@@ -274,6 +298,9 @@
 フェオドラ	Feodora
 フェオドラさん	Feodora-san
 イグアナ	Iguana
+ビックブロンズイグアナ	Big Bronze Iguana
+レッドキラークロコダイル	Red Killer Crocodile
+ジャイアントレッドキラークロコダイル	Giant Red Killer Crocodile
 ハンソン	Hanson
 ハンソンさん	Hanson-san
 ニコライ	Nicolai
@@ -298,10 +325,15 @@
 オリバー君	Oliver-kun
 エーリク君	Erik-kun
 ロッテちゃん	Lotte-chan
+ロッテ	Lotte
 タバサさん	Tabasa-san
 ルークさん	Luke-san
+ルーク	Luke
 アーヴィンさん	Irvine-san
+バルテル	Bartel
 バルテルさん	Bartel-san
+アーヴィン	Alvin
+アーヴィンさん	Alvin-san
 ジャンニーノさん	Jannino-san
 ジャンニーノ	Jannino
 ガブリエル	Gabriel
@@ -312,7 +344,7 @@
 エンゾさん	Enzo-san
 ワイルドバイソン	Wild Bison
 ゴールデンシープ	Golden Sheep
-ジャイアントホーンボア	Giant Horn Snake "Bor?"
+ジャイアントホーンボア	Giant Horn Boar
 ブルーブル	Blue Bull
 ジャイアントターキー	Giant Turkey
 ローセンダール	Rosendale	"City"
@@ -348,3 +380,102 @@
 ペーター	Peter
 ペーター君	Peter-kun
 リバー君	Riba-kun	"????"
+フローラちゃん	Flora-chan
+デビーちゃん	Debby-chan
+アデルミラ	Adelmira
+アデルミラちゃん	Adelmira-chan
+グール	Ghoul
+アンデッド	Undead
+<ruby><rb>爪斬撃</rb><rp>(</rp><rt>そうざんげき</rt><rp>)</rp></ruby>	Rending Claws
+ヴァンパイア	Vampire
+ヴァンパイアナイフ	Vampire Knife
+ポイズンナイフ	Poison Knife
+ビッグバイトタートル	Big Bite Turtle
+ビックバイトタートル	Big Bite Turtle	"Spelling Mistake"
+ジャイアントバイトタートル	Giant Bite Turtle
+リッチ	Lich
+エンペラーリッチ	Emperor Lich
+腐食液	Corrosive liquid
+スケルトン	Skeleton
+スケルトンウォーリア	Skeleton Warrior
+スケルトンメイジ	Skeleton Mage
+ホワイトキャタピラー	White Caterpillar
+グレイキャタピラー	Grey Caterpillar
+キラーアント	Killer Ant
+キラーアントナイト	Killer Ant Knight
+キラーアントクィーン	Killer Ant Queen
+キラーキャメルクリケット	Killer Camel Cricket
+ジャイアントキラーキャメルクリケット	Giant Killer Camel Cricket
+キングキラーキャメルクリケット	King Killer Camel Cricket
+ヴェノムセンチピード	Venom Centipede
+ジャイアントコックローチ	Giant Cockroach
+ギガントコックローチ	Gigant Cockroach
+<ruby><rb>闇玉</rb><rp>(</rp><rt>ダークボール</rt><rp>)</rp></ruby>	Dark Ball
+闇玉	Dark Ball
+カースソード	Curse Sword
+ブラックアナコンダ	Black Anaconda
+タイラントブラックアナコンダ	Tyrant Black Anaconda
+スカベンジャーリザード	Scavenger Lizard
+クリムゾンアスプ	Crimson Snake
+キングクリムゾンアスプ	King Crimson Snake
+マミー	Mummy
+ヒュドラ	Hydra
+サファイア	Sapphire
+ダイヤモンド	Diamond
+エメラルド	Emerald
+オパール	Opal
+アメシスト	Amethyst
+アクアマリン	Aquamarine
+<ruby><rb>影の戦士</rb><rp>(</rp><rt>シャドウウォーリア</rt><rp>)</rp></ruby>	Shadow Warrior	"Adventuer Party"
+影の戦士	Shadow Warrior	"Adventuer Party"
+ネイホフ	Neihof	"a City"
+エイヴリング	Aveling	"a City with a Dungeon"
+<ruby><rb>アーク</rb><rp>(</rp><rt>箱舟</rt><rp>)</rp></ruby>	Ark	"Adventuer Party"
+<ruby><rb>赤竜</rb><rp>(</rp><rt>レッドドラゴン</rt><rp>)</rp></ruby>	Red Dragon
+<ruby><rb>アイアン・ウィル</rb><rp>(</rp><rt>鉄の意志</rt><rp>)</rp></ruby>	Iron Will
+神薬　毛髪パワー	Divine Hair Restorative
+育毛剤	Hair Restorative
+ギルドマスター	Guildmaster
+<ruby><rb>聖光の槍</rb><rp>(</rp><rt>ライトニングアロー</rt><rp>)</rp></ruby>	Lightning Arrow
+<ruby><rb>浄化の光</rb><rp>(</rp><rt>ホーリーライト</rt><rp>)</rp></ruby>	Holy Light
+タイラントフォレストパイソン	Tyrant Forest Python
+ユーリンチー	Deep Fried Chicken
+トリックスター	Trickster	"Adventuer Party"
+ローブ	Robe
+タイラントスカラベ	Tyrant Scarab
+クイーンフォレストアーミーアント	Queen Forest Army Ant
+フォレストアーミーアント	Forest Army Ant
+ゲイザー	Gazer
+ダンジョン	Dungeon
+エレメイ川	Elemei River
+魔道コンロ	Magic stove
+<ruby><rb>火の玉</rb><rp>(</rp><rt>ファイヤーボール</rt><rp>)</rp></ruby>	Fireball
+ファイヤーボール	Fireball
+火の玉	Fireball
+<ruby><rb>水の玉</rb><rp>(</rp><rt>ウォーターボール</rt><rp>)</rp></ruby>	Waterball
+<ruby><rb>水の球</rb><rp>(</rp><rt>ウォーターボール</rt><rp>)</rp></ruby>	Waterball
+ウォーターボール	Waterball
+水の玉	Waterball
+水の球	Waterball
+オーソンさん	Orson-san
+オーソン	Orson
+ケルピー	Kelpie
+バーサクマッドクラブ	Berserk Mud Crap
+カニさん	Crab-san
+タイラントブラックアリゲーター	Tyrant Black Alligator
+ロンカイネン	Ronkainen
+<ruby><rb>聖騎士</rb><rp>(</rp><rt>パラディン</rt><rp>)</rp></ruby>	Paladin
+パラディン	Paladin
+聖騎士	Holy Knight
+モイラ様	Moira-sama
+モイラ	Moira
+モイラさん	Moira-san
+<ruby><rb>奴隷</rb><rp>(</rp><rt>従業員</rt><rp>)</rp></ruby>	employee
+エセ神	false God
+クワイン共和国	Republic of Quine
+ラングリッジ	Langridge
+ブルーノさん	Bruno-san
+ブルーノ	Bruno
+アニカさん	Anika-san
+アニカ	Anika
+ケートス	Cetus

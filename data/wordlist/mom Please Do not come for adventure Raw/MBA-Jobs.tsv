@@ -21,13 +21,13 @@
 大賢者	Great Sage
 大魔術師	Great Mage
 ウィザードプリンセス	Wizard Princess
-冥斧士	Hell Axeman
+冥斧士	Dark Axeman
 見習い戦士	Apprentice Warrior
 戦士見習い	Apprentice Warrior
-神官戦士見習い	Apprentice Kannushi-warrior
+神官戦士見習い	Apprentice Priest-warrior
 戦士	Warrior
-神官戦士	Kannushi-warrior
-堕武者	Fallen Musha
+神官戦士	Priest-warrior
+堕武者	Fallen Warrior
 霊闘士	Spirit Warrior
 超戦士	Super Warrior
 超重戦士	Super-heavy Warrior
@@ -115,6 +115,7 @@
 巫女長	Shrine Maiden Leader
 巫女見習い	Apprentice Shrine Maiden
 水中適応	Water Adaptation
+身体強化	Enhanced Body Part
 墨分泌	Ink Secretion
 歌唱	Singing
 農夫	Farmer
@@ -143,7 +144,7 @@
 混導士	Chaos Guider
 滅導士	Destruction Guider
 創導士	Creation Guider
-冥導士	Nether Guider
+冥導士	Dark Guider
 魔導士	Demon Guider
 魔砲士	Magic Cannoneer
 不死殺し	Immortality Slayer
@@ -157,11 +158,11 @@
 魔王使い	Demon King User
 迷宮創造者	Labyrinth Creator
 ダンジョンマスター	Dungeon Master
-冥医	Hell Healer
+冥医	Dark Healer
 鞭舌禍	Whip Tongue Calamity
 怨狂士	Vengeful Berserker
 死霊魔術師	Dead Spirit Mage
-冥王魔術師	Hell King Mage
+冥王魔術師	Dark King Mage
 付与片士	Fragment Bestower
 虚王魔術師	Hollow King Mage
 蝕呪士	Eclipse Cursecaster
@@ -187,7 +188,7 @@
 名工	Renowned
 棍術士	Club Warrior
 獣戦士	Beast Warrior
-冥甲重棍士	Hell Armor Heavy Club Warrior
+冥甲重棍士	Dark Armor Heavy Club Warrior
 魔棍士	Magic Club Warrior
 魔棍使い	Magic Club User
 ハイテイマー	High Tamer
@@ -196,7 +197,7 @@
 魔弓士	Magic Archer
 精霊王魔術師	Spirit King Mage
 霊導士	Spirit Guider
-転導士	Change Guider
+転導士	Job Change Guider
 導主	Guidance Master
 饕餮	Taotie
 アザトース	Azathoth
@@ -204,6 +205,7 @@
 神霊理	Divine Spirit Cooking
 高位精霊魔術師	High Ranking Spiritual-Mage
 炎空魔術師	Fire-Space Magic Swordsman
+神官	Kannushi	Priest (Towards God)
 夢導士	Dream Guider
 魔杖装者	Magic Staff Transformation
 マジカルダンサー	Magical Dancer
@@ -219,10 +221,12 @@
 クリフォト	Qliphoth
 神滅者	God Destroyer
 魂格闘士	Soul Fighter
-冥群砲士	Hell Battery Cannoneer
+冥群砲士	Dark Battery Cannoneer
 荒御魂	Aramitama
 魔杖創造者	Magic Wand Creator
 神霊魔術師	Divine Spirit Mage
+ユリアーナ	Juliana
+ユリアーナ・アルクレム	Juliana Alcrem
 変身装具士	Transformable Gear Warrior
 念動戦士	Psychic Warrior
 念動力士	Psychic Power User
@@ -233,7 +237,7 @@
 ウロボロス	Ouroboros
 ルドラ	Rudra
 血統者	Blood Ruler
-陰導士	Yin Guider
+陰導士	Shadow/Yin Guider
 魔電士	Demonic Lightning Warrior
 神導士	God/Divine Guider
 蚩尤	Chiyou
@@ -259,8 +263,8 @@
 マジカルシンガー	Magical Singer
 姫導士	Princess Guider
 マジカル	Magical
-冥鬼大斧豪	Hell Demon Great Axe Overpower
-冥鬼斧豪	Hell Demon Axe Overpower
+冥鬼大斧豪	Dark Demon Great Axe Overpower
+冥鬼斧豪	Dark Demon Axe Overpower
 盾士	Shield Warrior
 霊鬼士	Spirit Demon Warrior
 魔月姫	Magical Moon Princess
@@ -283,19 +287,19 @@
 魔錬職人	Refined Magic Artisan
 歌鬼姫	Demon Diva Princess
 変身職人	Transforming Artisan
-錬冥職人	Refined Hell Artisan
+錬冥職人	Refined Nether Artisan
 共導士	Friendship Guider	Zakkart
 常導士	Ordinary Guider	Nineroad
 ウェイトレス	waitress
 精霊使い	Spirit User
 結界師	Barrier Master	Melissa
-冥獣闘士	Hell Beast Fighter	Miles
+冥獣闘士	Nether Beast Fighter	Miles
 獣闘士	Beast Fighter	Miles
 闇夜闘士	Dark Night Fighter
-変化闘士	Transforming Warrior
+変化闘士	Transformation Warrior
 魂喰士	Soul Eater
 神喰者	God Eater
-冥獣使い	Hell Beast User
+冥獣使い	Nether Beast User
 軽戦士	Light Warrior
 風使い	Wind User
 密偵	Spy
@@ -310,8 +314,8 @@
 槍士	Spearman
 ボクサー	Boxer
 ベビーシッター	babysitter
-変身剣姫	Transforming Sword Princess
-変身クノイチ	Transforming Kunoichi
+変身剣姫	Transformation Sword Princess
+変身クノイチ	Transformation Kunoichi
 魔聖女	Magic Saint	Demon Saint
 水精使い	Water-Spirit User
 触腕士	Tentacle Warrior
@@ -341,7 +345,7 @@
 大盗賊	Grand Thief
 大精霊使い	Great Spirit User
 兵士	Soldier
-冥界神魔術師	Hell World God Mage
+冥界神魔術師	Netheworld God Mage
 狂筋術士	Crazy Muscle Artist
 魔術少女	magician girl
 山賊	mountain bandit
@@ -382,8 +386,8 @@
 虚界神魔術師	Hollow Boundary God Mage
 神霊理士	Divine Spirit Chef
 万魔殿	Pandemonium
-冥魔王	Hell Demon King
-吟遊詩人	Bard
+冥魔王	Nether Demon King
+吟遊詩人	Troubadour
 魔槍士	Magic Spearman
 聖槍使い	Holy Spear User
 聖槍士	Holy Spearman
@@ -408,28 +412,10 @@
 魔皇太后	Magic Empress Dowager
 上級騎士	Senior Knight
 デーモンライダー	Demon Rider
-淫魔剣姫	Lewd Magic Sword Princess
+淫魔剣姫	Lewd MAgic Sword Princess
 弓使い	Bow User
 短剣術士	Dargger Warrior
 暗殺術士	Assassination Warrior
 刎頸士	Beheader
 聖弓	Holy Bow
 聖刃使い	Holy Sword User
-英導士	Heroic Guider
-龍使い	Dragon God User
-魔法剣姫	Magical Sword Princess
-姫従剣士	Princess' Sworn Swordsman
-淑女	Lady
-魔法淑女	Magical Lady
-変身淑女	Transforming Lady
-大魔法少女	Great Magical Girl
-女騎士	Dame	Female Knight
-変身執事	Transforming Butler
-枢機卿	Cardinal
-侍祭	Acolyte
-音楽家	Musician
-神殿長	Temple Head
-ダンシング	Dancing
-教皇	Pope
-死鬼将群	Death Demon Commander
-超大斧豪	Super Great Axe Master
