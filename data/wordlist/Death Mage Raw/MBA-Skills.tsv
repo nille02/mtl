@@ -115,7 +115,7 @@
 群蜂指揮	Bee Swarm Commanding
 連携	Coordination
 群蜂連携	Bee Swarm Coordination
-投擲術	Throwing
+投擲術	Throwing Technique
 熟成	Maturation
 ブレス【毒】	Breath【Poison】
 若化	Youth Transformation
@@ -154,7 +154,7 @@
 ガレスの加護	Garess’s Divine Protection
 獅死斧術	Death Lion Axe Technique
 剛力	Monstrous Strength
-精力絶倫	Endless Sexual Stamina
+精力絶倫	Peerless Vigor
 物理耐性	Physical Resistance
 精神耐性	Mental Resistance
 伐採	Deforestation
@@ -208,12 +208,12 @@
 炎王魔術	Flame King Magic
 魔鎧王術	Magic Armor King Technique
 聖職者	Clergyman
-御使い降臨	Familiar Spirit Descent
+御使い降臨	Familiar Spirit Advent
 酒造り	Alcohol Brewing
 邪悪封殺	Evil Suppression
 アルダの加護	Alda’s Divine Protection
 アンデッドキラー	Undead Killer
-英霊降臨	Heroic Spirit Descent
+英霊降臨	Heroic Spirit Advent
 聖光鎧術	Holy Light Armor Technique
 輝神剣術	Radiant God Swordsmanship
 聖道	Holy Path
@@ -229,7 +229,7 @@
 迷宮建築	Labyrinth Creation
 下位種族支配	Inferior Race Domination
 魔道牙剣術	Demon Path Fang Sword Technique
-分霊降臨	Spirit Clone Descent
+分霊降臨	Spirit Clone Advent
 魔鎧	Magic Armor
 魔道	Demon Path
 糸精製	Thread Refining
@@ -313,7 +313,7 @@
 狩弓神術	Hunting God Archery
 命帝魔術	Life Emperor Magic
 精霊魔術	Spirit Magic
-女神降臨	Goddess Descent
+女神降臨	Goddess Advent
 カオスエルフの祖	Chaos Elf's Ancestor
 神鉄骨格	Divine Metal Skeleton
 再生の魔眼	Magic Eye of Regeneration
@@ -326,7 +326,7 @@
 筋術	Muscle Technique
 冥魔創道誘引	Hell Demon Creator Path Enticement
 群体操作	Group Manipulation
-精力超絶倫	Extreme Endless Sexual Stamina
+精力超絶倫	Extreme Peerless Vigor
 拳神術	God Fist Technique
 成長促進	Accelerated Growth
 武真	True Warrior
@@ -390,7 +390,7 @@
 高速繁殖	High-speed Egg Spawn
 裁縫	Sewing
 異形精神	Grotesque Mind
-石工	Masonry
+石工	Stonemason
 非金属鎧装備時防御力強化：中	Strengthened Defensive Power while equipped with non-metal armor: (Medium)
 聖剣神術	Holy Sword God Technique
 断鉄	Iron Slash
@@ -404,7 +404,7 @@
 装植術	Plant Binding Technique
 無手時攻撃力強化	Strengthened Attack Power while Unarmed
 龍棍術	Dragon God Club Technique
-御使い降魔	Demon Ascend
+御使い降魔	Familiar Spirit Demonic Advent
 の加護	's Divine Protection
 ヴァンダルーの欠片	Vandalieu's Fragment
 大鑑定の魔眼	Magic Eye of Great Appraisal
@@ -417,8 +417,8 @@
 炎熱精密操作	Precise Flame Heat Operation
 性能強化	Enhanced Performance	Amemiya
 幸運強化	Enhanced Luck	Amemiya
-鋼の精神	Steel Spirit	Amemiya
-不滅の力	Never Give Up	Amemiya
+鋼の精神	Steel Heart	Amemiya
+不滅の力	Undying Power	Amemiya
 全属性適正	All Attribute Affinity	Amemiya
 根源	Root
 群隊	Group Coordination
@@ -506,14 +506,14 @@
 群体	Group Body
 土属性無効	Earth-Attribute Nullity
 従属	Dependent
-降臨	Descent
+降臨	Advent
 冥魔創滅混夢道	Hell Demon Creation Destruction Mixed Dream Path
 冥魔創滅夢道	Hell Demon Creation Destruction Dream Path
 冥魔創滅道	Hell Demon Creation Destruction Path
 冥魔創道	Hell Demon Creation Path
 冥魔道	Hell Demon Path
 冥道	Nether Path
-空中	On Air
+空中	midair
 精密操船	Precise Maneuvering
 番犬	Watchdog
 冥匠	Hell Artisan
@@ -743,7 +743,6 @@
 導く	Guiding
 神経毒	neurotoxin
 百甲術	Hundred Armor Technique
-主命	Master's orders
 超回復	Super Healing
 大回復	Great Healing
 獅死闘術	Death Lion Fighting Technique
@@ -752,3 +751,28 @@
 保護色	Crypsis
 空中歩行	Aerial Movement
 水泳	Swimming
+虚姫魔術	Hollow Princess Magic
+月弓術	Moon Archery
+殺神	Slaughter God
+気象神	Weather God
+スキル模写	Skill Replication
+欲滅神	Ruinous Greed Authority
+指令	Order
+惨剣術	Cruel Sword Technique
+筋鎧術	Muscle Armor Technique
+具神化	Deification Wear
+輝英神	Radiant God
+覇聖	Holy Champion
+光神魔術	Light God Magic
+生神魔術	Life God Magic
+アルダ勢力	Alda's Faction
+英雄神化	Heroic God Form
+神鉄壁	Divine Iron Wall
+氷神	Ice God
+不妊	Infertility
+サイズ操作	Size Management
+上昇	increase
+鍛冶	Blacksmith
+光神	Light God
+輪廻転生神	God of the Circle of Reincarnation
+真空	Vacuum

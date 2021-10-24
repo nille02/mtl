@@ -310,7 +310,7 @@
 チーズ	cheese
 生命力	Vitality	HP
 魔力	Mana	MP
-体力	Defense	DEF
+体力	Endurance	DEF
 知力	Intelligence	INT
 臆病	coward
 バックファイア	backfire
@@ -404,7 +404,7 @@
 マナー	manner
 ヒット＆アウェイ	Hit & Run
 ブラフ	bluff
-空間	space
+空間	space	kuukan
 クレイジー	crazy
 野郎	bastard
 馬鹿	idiot
@@ -434,13 +434,12 @@
 ガイダンス	guidance
 ロイヤル	Royale
 怪我	injure
-病気	sick
+病気	disease
 影響	impact
 病的	abnormal
 自我	ego
 我慢	endurance
 フット	foot
-のタン	's tongue
 バーベキュー	barbecue
 バンザイ	Banzai
 レギュラー	regular
@@ -512,7 +511,7 @@
 ここから	from here	from here
 推測	conjecture
 頷く	nod
-転生	transmigration of souls
+転生	reincarnation
 訂正	correction
 伝説	legend
 子供	child
@@ -718,3 +717,78 @@
 セオリー	theory
 聖戦軍	Holy Army
 屋台	Food Stall
+神罰	Divine Punishment
+ウォーミング	warming
+フクロウ	ural owl
+気配	sign
+捕食者	predator
+堪忍	patience
+暴走	runaway
+キロメートル	kilometer
+輸血	blood transfusion
+忍耐	patience
+舎弟	sworn younger brohter
+子弟	young child
+ニックネーム	nickname
+一〇〇	100
+一〇一	101
+チョコレート	chocolate
+主人	master
+卵巣	ovary
+子宮	uterus	womb
+マッシュルーム	Mushroom
+神話	Myth	magic item class
+サムズアップ	thumb's up
+ファーストフード	fast food
+空枠	Empty Frame
+セクシーバディ	Sexy Body
+博物館	museum
+ギャンブル	gambling
+ボードゲーム	Board Game
+プレイヤー	player
+フリスビー	Frisbee
+ジャスティス	Justice
+ビューティフル	Beautiful
+マッスル	Muscle
+パワーフォー	Power for
+インターネット	internet
+ショウガ	sugar
+ギョショー	Gyosho
+ジェンガ	Jenga	game with wooden tablets
+イカサマ	tricks
+ボーイフレンド	boyfriend
+ブルジョア	bourgeois
+タイムスリップ	timeslip
+ハリウッドスター	Hollywood
+ヒヒロイカネ	Hihiroikane	Fictional metal
+漁夫	fisherman
+主人公	protagonist
+従兄弟	younger cousin
+デジャブ	Déjà vu
+流行病	epidemic disease
+月夜	moonlit night
+ニート	NEET
+ギフト	Gift
+ハンドレッド	Hundred	Hundred Bravers
+ストップ	stop
+闇夜	Dark night
+グライダー	Glaider
+リアクション	reaction
+ビックリ	panic
+テレポート	teleport
+ワッフル	waffle
+アルダ大戦	Alda Great War
+ムチムチ	MUCHI MUCHI
+博識	extensive knowledge
+アテンション	Attention
+ミステリー	mystery
+血筋	bloodline
+ミスリード	mislead
+露骨	blunt
+寄生虫	parasites
+血気盛ん	hot-blooded
+食堂	cafeteria
+恐怖感	sense of fear
+博打	gambling
+衛星	Satellite
+指針	guideline

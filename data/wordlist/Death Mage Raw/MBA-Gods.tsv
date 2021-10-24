@@ -13,7 +13,7 @@
 ザナルパドナ	Zanalpadna
 フィディルグ	Fidirg
 ゾゾガンテ	Zozogante
-グファドガーン	Gufardgarn
+グファドガーン	Gufadgarn
 ジャロディプス	Jyarodeeps
 ルヴェズフォル	Luvezfol
 アルダ	Alda
@@ -44,7 +44,7 @@
 ギュバルゾー	Gyubarzo
 ダイアナ	Daiana
 ヂュリザーナピペ	Jurizanapipe
-時と術の魔神	God of Time and Magic Arts
+時と術の魔神	Magic God of Time and Arts
 月の巨人	Giant of the Moon
 太陽の巨人	Giant of the Sun
 戦旗の神	God of Battleflags
@@ -76,7 +76,7 @@
 炎の英雄神	Heroic god of fire
 悦命の邪神	Evil God of Joyful Life
 記録の神	God of Records
-断罪の神	God of Judgment
+断罪の神	God of Judgement
 狂災の悪神	Evil God of Mad Disaster
 暗海の邪神	Evil God of dark seas
 解放の悪神	Evil god of release
@@ -84,7 +84,7 @@
 殺狂の悪神	Evil God of Mad Slaughter
 欲滅の悪神	Evil God of Ruinous Greed
 歪みの邪神	Evil God of Distortion
-ステータスの神々	God of Status
+ステータスの神々	Gods of Status
 ロージェフィフィ	Rojefifi
 轟雷の巨人	Lightning Giant	Blateo
 大渦龍神	Great Vortex Dragon God	Zwoldo
@@ -252,11 +252,51 @@
 守護神	Patron God
 分霊	Spirit Clone
 聖痕	Stigmata
-リュゼマゼラ	Luzmazela	Goddess of Spring
+リュゼマゼラ	Luzmazela	Goddess of Regeneration
 ギュピャレスラ	Gupyaresla	Evil God of Demon Castles
-ジグラット	Ziggurat
+ジグラット	Ziggurat	Dragon God of Thunderstorms
 猪の悪	Evil Boar	Bododo
 ボドド	Bododo	Evil Boar Beast King
 猪の獣王	Boar Beast King
-嵐雷龍神	Dragon God of Thunderstorms
-再生の女神	Goddess of Regeneration
+嵐雷龍神	Dragon God of Thunderstorms	Ziggurat
+再生の女神	Goddess of Regeneration	Luzmazela
+熊の獣王	Bear Beast King	Urgus
+ウルグス	Urgus	Bear Beast King
+砂漠の巨人	Desert Giant	Bazaraza
+バザーラザ	Bazaraza	Desert Giant
+万眼の邪神	Evil God of All Eyes	Gudjejuz
+ギュドヂェヂュズ	Gudjejuz	Evil God of All Eyes
+浄炎の神	God of Purification	Darmatark
+ダーマターク	Darmatark	God of Purification
+ゾビュベロギア	Zobyubelogia	Evil God of Ruinous Greed
+隠の神	God of Concealing	Wyzwarn
+ワイズワーン	Wyzwarn	God of Concealing
+ギドラグドラ	Gidragudra	Evil God of Mad Slaughter
+バスバリュリュ	Basbarulu	Evil God of Ceasing Clouds and Demon Rain
+廃雲と魔雨の邪神	Evil God of Ceasing Clouds and Demon Rain	Basbarulu
+ナディア	Nadia	Crystal Giant
+水晶の巨人	Crystal Giant	Nadia
+獅子の獣王	Lion Beast King	Rezafortes
+レザフォルテス	Rezafortes	Lion Beast King
+魔象の邪獣王	Monster Elephant Evil Beast King	Vaphovald
+ヴァフォヴァルド	Vaphovald	Monster Elephant Evil Beast King
+光濁の邪神	Evil God of Contaminated Light	Byazecbyocto
+ビャゼクビョクト	Byazecbyocto	Evil God of Contaminated Light
+海象の獣王	Walrus Beast King	Toothold
+トゥースオルド	Toothold	Walrus Beast King
+ドボペゼパルオ	Dobopezepaluo	Evil God of Cursed Poison
+ヴェージョガッシュ	Vougeozatch	Evil God of Distortion
+暴食龍	Gluttonous Dragon
+蝕腐森の悪神	Evil god of Corroded Forests	Parafalpa
+パラファルパ	Parafalpa	Evil god of Corroded Forests
+吹雪の女神	Goddess of Snowstorms	Mermedia
+メルメディア	Mermedia	Goddess of Snowstorms
+永刃の悪神	Evil God of Long Blades	Sbavolo
+スバヴォロ	Sbavolo	Evil God of Long Blades
+万顔の悪神	Evil God of Thousand Faces	Pyaopguk
+ピャオポグク	Pyaopguk	Evil God of Thousand Faces
+魔城	Demon Castle
+準大神	Semi Great God
+魔神	Magic God	Ricklent
+ルゴルノーク	Lugornock	Evil God of Deathly Dreams
+夢死の邪神	Evil God of Deathly Dreams	Lugorurock

@@ -35,8 +35,8 @@
 ハイゴブリン	High Goblin
 ブラックゴブリン	Black Goblin
 ブラックゴブリンスカウト	Black Goblin Scout
-アヌビス	Anubise
-オーカス	Orcuse
+アヌビス	Anubis
+オーカス	Orcus
 巨人種	Giant race
 獣人種	Beast race
 ドワーフ	Dwarf
@@ -85,14 +85,13 @@
 ヴァンパイアデューク	Vampire Duke
 ヴァンパイアマーキスゾンビ	Vampire Marquess Zombie
 ノーライフキメラゾンビ	Lifeless Chimera Zombie
-スケルトンブレイドロード	Skeleton Blade Lord
+ブレイドロード	Blade Lord
 ボーンパレス	Bone Palace
 ナイトメアロードキャリッジ	Nightmare Lord Carriage
 サキュバスカースソードナイト	Succubus Cursed Sword Knight
 ノーブルオークアビスハイキング	Noble Orc Abyss High King
 アラクネサムライマスター	Arachne Samurai Master
 エンプーサシャドウクノイチ	Empusa Shadow Kunoichi
-ヴァンパイアマーキス	Abyssal Vampire Marquis
 ヴァンパイアカウント	Vampire Count
 深淵種吸血鬼伯爵	Abyssal Vampire Count
 グールアークタイラント	Ghoul Arch-Tyrant
@@ -102,7 +101,7 @@
 ヴァンパイアカウントゾンビ	Vampire Countess Zombie
 ノーブルオークプランダーキング	Noble Orc Plunder King
 闘魔人ディアブロ	Battle-Majin Diablo
-スケルトンマーキス	Skeleton Marquis
+マーキス	Marquis
 ゾンビエピックヒーロー	Zombie Epic Hero
 リザードマンハイジェロニモ	Lizardman High Geronimo
 ボーンフォート	Bone Fort
@@ -375,7 +374,7 @@
 闘魔人	Battle-Majin
 邪神の寄り代	One Closest to an Evil God
 インプマウス	Imp Mouse
-キャンサー	cancer
+キャンサー	Cancer
 鬼竜人	Kiryuujin
 魔竜人	Maryuujin
 の祖	's ancestor
@@ -428,3 +427,64 @@
 アストラル	Astral
 ミソロジー	Mythology
 真なる龍	True Dragon God
+デモニック	Demonic
+ヴェノム	Venom
+ガスト	Gust
+アークウィザード	Archwizard
+ダークナイトスペクター	Dark Night Specter
+ディメンションロード	Dimensional Road
+サンド	Sand	Sand Golem
+ファントム・バード	Phantom Bird
+ウォーリアー	Warrior
+マッドボア	Mad Boar
+ジェロニモ	Geronimo
+インペイラーブル	Impaler Bull	Mount of Kobold Riders
+スコーピオン	Scorpion
+タートル	Turtle
+アイアン	Iron
+インペイラーオックス	Impaler Ox
+ランスブル	Lance Bull
+ウォーリア	Warrior
+パイソン	Python
+ウルフ	Wolf
+グラップラー	Grappler	Ghoul Grappler
+チャリオット	Chariot
+ニードル	Needle
+ラプトル	Raptor
+ドラゴンフライ	Dragonfly
+サーベルタイガー	Saber-toothed Tiger
+トリケラトプス	Triceratops
+プテラノドン	Pteranodon
+ステゴサウルス	Stegosaurus
+ポイズンマッシュ	Poison Mush
+ハイトレント	High Treant
+モンキー	Monkey
+サハギン	Sahuagin
+パイレーツ	Pirate
+バレット	Bullet
+アイランド	Island
+ブレード	Blade
+シュリンプ	Shrimp
+スクイード	Squid
+カメレオン	Chameleon
+ロブスター	Lobster
+オクトパス	Octopus
+ビック	Big
+アーマード	Armored
+トライホーン	Trihorn
+アオダイショウ	Rat Snake
+ギーガ鳥	Giga Bird
+スレイブ	Slave
+ライカン	Lycan
+リベリオン	Rebellion
+リッター	Ritter
+バロン	Baron
+ストーン	Stone
+アデプト	Adept
+ヘビー	Heavy
+バンパイア	Vampire
+カプリコーン	Capricorn
+グレートマッドドラゴン	Great Mud Dragon
+ヒポポタマス	Hippopotamus
+エキドナ	Echidna	Lamia rank up
+シェルノーク	Shellnock
