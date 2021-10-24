@@ -29,6 +29,8 @@ class Storage:
         if not os.path.exists(novelpath):
             raise IOError('Novel not Found.')
         chapters = []
+        wordlist = self.open_wordlist(name)
+
         for file in natsort.natsorted(glob.glob(novelpath + "/*.txt", recursive=False)):
             matches = self.RAW_MATCH.match(str(os.path.split(file)[1]))
             groups = matches.groups()
@@ -38,9 +40,9 @@ class Storage:
             with open(file, 'r', encoding='utf-8') as reader:
                 data = reader.read()
 
-            chapters.append(Chapter(int(groups[0]), name, groups[2], data, groups[1], self.open_wordlist(name)))
+            chapters.append(Chapter(int(groups[0]), name, groups[2], data, groups[1], wordlist))
 
-        return Novel(name, chapters)
+        return Novel(name, chapters, wordlist=wordlist)
 
     def load_all_raw(self) -> List[Novel]:
         folders = [f for f in glob.glob(self.RAW_ROOT_PATH + "*/", recursive=False)]
@@ -179,7 +181,8 @@ class Storage:
                 wordlist = csv.reader(reader, delimiter='\t', quotechar='|')
                 for word in wordlist:
                     replacements.append(word)
-        return replacements
+
+        return self.__sort(replacements, reverse=True)
 
     @staticmethod
     def __clean_filename(filename, replace=' '):
@@ -197,3 +200,13 @@ class Storage:
         if len(cleaned_filename) > char_limit:
             print(f"Warning, filename truncated because it was over {char_limit}. Filenames may no longer be unique")
         return cleaned_filename[:char_limit]
+
+    # Python code to sort the tuples using first element
+    # of sublist Function to sort using sorted()
+    @staticmethod
+    def __sort(sub_li, reverse=False):
+
+        # reverse = None (Sorts in Ascending order)
+        # key is set to sort using first element of
+        # sublist lambda has been used
+        return sorted(sub_li, key=lambda x: len(x[0]), reverse=reverse)

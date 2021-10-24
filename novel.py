@@ -11,13 +11,17 @@ class Novel:
     chapters: List
     name: str
     volumes: dict
+    wordlist: List
 
-    def __init__(self, name: str, chapters: List, volumes: dict = None):
+    def __init__(self, name: str, chapters: List, volumes: dict = None, wordlist: List = None):
         if volumes is None:
             volumes = {}
         self.name = name
         self.chapters = chapters
         self.volumes = volumes
+        if wordlist is None:
+            wordlist = []
+        self.wordlist = wordlist
 
     def get_volumes(self) -> dict:
         return self.volumes
@@ -49,10 +53,9 @@ class Chapter:
 
         data = self.data
         if self.word_list is not None:
-            self.word_list = self.__sort(self.word_list, reverse=True)
             for word in self.word_list:
                 if len(word) >= 2:
-                    # We add [[ and ]] before and after each keyword, later we replace them or delete them.
+                    # We add [[ and ]] before and after each keyword, later we replace or delete them.
                     data = data.replace(word[0], '[[' + word[1] + ']]')
                 else:
                     print("Format Error:" + str(word))
@@ -78,21 +81,12 @@ class Chapter:
 
         return self.__remove_ruby_tags(lxml.html.tostring(parsed_html, encoding='unicode'))
 
-    def __remove_ruby_tags(self, data):
+    @staticmethod
+    def __remove_ruby_tags(data: str) -> str:
         # The First Pattern Replace all Ruby blocks with ・ as the only character in it
         MATCH_PATTERN = r"<ruby><rb>(?P<first>.+?)</rb><rp>.+?</rp><rt>(?P<second>・+?)</rt><rp>.+?</rp></ruby>"
         data = re.sub(MATCH_PATTERN, r'<span>\g<first></span>', data)
-        # This Pattern remove all roby blocks and move its content after the word in ()
+        # This Pattern remove all ruby blocks and move its content after the word in ()
         MATCH_PATTERN = r"<ruby><rb>(?P<first>.+?)</rb><rp>.+?</rp><rt>(?P<second>.+?)</rt><rp>.+?</rp></ruby>"
         data = re.sub(MATCH_PATTERN, r'<span>\g<first>(\g<second>)</span>', data)
         return data
-
-    # Python code to sort the tuples using first element
-    # of sublist Function to sort using sorted()
-    @staticmethod
-    def __sort(sub_li, reverse=False):
-
-        # reverse = None (Sorts in Ascending order)
-        # key is set to sort using first element of
-        # sublist lambda has been used
-        return sorted(sub_li, key=lambda x: len(x[0]), reverse=reverse)
